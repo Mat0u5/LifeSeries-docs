@@ -1,0 +1,17 @@
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build/
+.gradle
+.kotlin
+
+node_modules/
+
+docs/.vitepress/dist
+docs/.vitepress/cache
