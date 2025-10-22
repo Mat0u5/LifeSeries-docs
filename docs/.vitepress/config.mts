@@ -51,6 +51,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Command Overview', link: '/commands/overview' },
+          { text: 'Global Commands', link: '/commands/season-specific' }
           { text: 'Season-Specific Commands', link: '/commands/season-specific' }
         ]
       },
