@@ -143,14 +143,6 @@ Unless specified otherwise (using "*No permissions required.*"), all commands ca
   - `/task set <player> <difficulty> <task>` - Sets the `<player>`'s task to be `<task>` on the next randomization.
   - `/task get <player>` - Shows you if `<player>` has a task, and the task itself you want to.
 
-- `/soulmate` - *These commands are only available when playing Double Life.*
-  - `/soulmate get <player>` - Shows you who `<player>`'s soulmate is.
-  - `/soulmate set <player1> <player2>` - Makes `<player1>` be `<player2>`'s soulmate.
-  - `/soulmate list` - Shows you all the soulmate pairs.
-  - `/soulmate reset <player>` - Resets `<player>`'s soulmate.
-  - `/soulmate resetAll` - Resets all soulmates.
-  - `/soulmate rollRandom` - Rolls random soulmates from the list of online players.
-  - 
 - `/snail` - *These commands are only available when playing Wild Life.*
   - `/snail names get <player>` - Shows you the name of `<player>`'s snail. *No permissions required.*
   - `/snail names set <player> <name>` - Sets the name of `<player>`'s snail to `<name>`.
