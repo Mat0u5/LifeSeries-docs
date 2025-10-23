@@ -82,24 +82,6 @@ Unless specified otherwise (using "*No permissions required.*"), all commands ca
 </details>
 
 
-
-<details open>
-<summary>/lives</summary>
-
-*This command is only available when you have selected a Series.*
-- `/lives` - Shows you the amount of lives you have. *No permissions required.*
-- `/lives reload` - Reloads the teams of all players. This should never be necessary to run.
-- `/lives add <player> [amount]` - Adds `[amount]` lives to `<player>`. If `[amount]` is not specified, it defaults to 1.
-- `/lives remove <player> [amount]` - Removes `[amount]` lives from `<player>`. If `[amount]` is not specified, it defaults to 1.
-- `/lives set <player> <amount>` - Sets `<player>`'s lives to `<amount>`.
-- `/lives get <player>` - Shows you how many lives `<player>` has.
-- `/lives reset <player>` - Resets `<player>`'s lives.
-- `/lives resetAll` - Resets the lives of all online and offline players.
-
-*In Limited Life, all the `<amount>`'s are replaced with time arguments. Examples of valid time arguments are: `16h, 8h, 5h2m1s, 3h30m, 1h1s, 5h2s, 10s`*
-</details>
-
-
 <details open>
 <summary>/watcher</summary>
 
