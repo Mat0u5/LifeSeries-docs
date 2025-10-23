@@ -2,7 +2,7 @@
 
 The main command for managing the Life Series mod.
 
-::: tip Quick Access
+::: info Availability
 This command is **always available**, regardless of whether a series has been selected.
 :::
 
@@ -219,22 +219,22 @@ Re-enables the Life Series mod functionality if it was previously disabled with 
 
 - [Selecting a Series Guide](/guide/selecting-series) - Detailed walkthrough
 - [Config Overview](/config/overview) - All available settings
-- [Troubleshooting](/advanced/troubleshooting) - Common issues and fixes
 
 ---
 
 ::: details Command Permissions Summary
-| Command | Permission Required |
-|---------|-------------------|
-| `/lifeseries getSeries` | None |
-| `/lifeseries version` | None |
-| `/lifeseries credits` | None |
-| `/lifeseries config` | Variable |
-| `/lifeseries chooseSeries` | Operator |
-| `/lifeseries setSeries` | Operator |
-| `/lifeseries disable` | Operator |
-| `/lifeseries enable` | Operator |
-| `/lifeseries reload` | Operator |
+
+| Command                    | Permission Required |
+|----------------------------|---------------------|
+| `/lifeseries chooseSeries` | Operator            |
+| `/lifeseries setSeries`    | Operator            |
+| `/lifeseries getSeries`    | None                |
+| `/lifeseries version`      | None                |
+| `/lifeseries credits`      | None                |
+| `/lifeseries config`       | Variable            |
+| `/lifeseries reload`       | Operator            |
+| `/lifeseries disable`      | Operator            |
+| `/lifeseries enable`       | Operator            |
 :::
 
 <style scoped>

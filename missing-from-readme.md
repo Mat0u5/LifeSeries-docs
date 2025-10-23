@@ -65,22 +65,6 @@ All of this is configurable, which brings me to the next point, the **Config**.
 ## Commands & Subcommands
 Unless specified otherwise (using "*No permissions required.*"), all commands can only be used by opped players (permissionLevel >= 2)
 
-<details open>
-<summary>/session</summary>
-
-*This command is only available when you have selected a Series.*
-- `/session start` - Starts the session, requires a timer to be set.
-- `/session stop` - Stops the session.
-- `/session pause` - Pauses / Unpauses the session.
-- `/session timer`
-  - `/session timer set <time>` - Sets the session time to `<time>`.
-  - `/session timer add <time>` - Adds `<time>` to the session time.
-  - `/session timer remove <time>` - Removes `<time>` from the session time.
-  - `/session timer fastforward <time>` - Skips forward `<time>` when a session is active.
-  - `/session timer remaining` - Shows the remaining session time. *No permissions required.*
-  - `/session timer showDisplay` - Displays a permanent session timer in the actionbar of a player. *No permissions required.*
-</details>
-
 
 <details open>
 <summary>/watcher</summary>
