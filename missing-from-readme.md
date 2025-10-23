@@ -76,14 +76,6 @@ Unless specified otherwise (using "*No permissions required.*"), all commands ca
 </details>
 
 <details open>
-<summary>/subin</summary>
-
-- `/subin list` - Shows a list of all subbed in players.
-- `/subin add <player> <subinfor>` - Substitues `<player>` for `<subinfor>`.
-- `/subin remove <player>` - Stops `<player>`'s substitution.
-</details>
-
-<details open>
 <summary>/wildcard</summary>
 
 *This command is only available when playing Wild Life.*
