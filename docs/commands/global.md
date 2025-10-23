@@ -9,6 +9,7 @@ Commands that are available in all seasons.
 - [`/watcher`](/commands/detailed/watcher) - Manage spectator watchers
 - [`/subin`](/commands/detailed/subin) - Handle player substitutions
 - [`/boogeyman`](/commands/detailed/boogeyman) - Boogeyman manager
+- [`/givelife`](/commands/detailed/givelife) - Give lives to others
 
 ::: tip Tip
 Clicking on one of the commands above will bring you to a detailed page about that command.

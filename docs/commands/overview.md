@@ -17,17 +17,22 @@ These commands work regardless of which season is selected:
 - [`/watcher`](/commands/detailed/watcher) - Manage spectator watchers
 - [`/subin`](/commands/detailed/subin) - Handle player substitutions
 - [`/boogeyman`](/commands/detailed/boogeyman) - Boogeyman manager
+- [`/givelife`](/commands/detailed/givelife) - Give lives to others
 
 ### Season-Specific
 These commands are only available in specific seasons:
 
-- [`/soulmate`](/commands/detailed/soulmate) - Only in Double Life
-- [`/task`](/commands/detailed/task) - Only in Secret Life
-- [`/health`, `/gift`](/commands/detailed/health) - Only in Secret Life
-- [`/wildcard`](/commands/detailed/wildcard) - Only in Wild Life
-- [`/superpower`](/commands/detailed/superpower) - Only in Wild Life
-- [`/snail`](/commands/detailed/snail) - Only in Wild Life
-- [`/hunger`](/commands/detailed/hunger) - Only in Wild Life (Hunger wildcard)
+#### Double Life:
+- [`/soulmate`](/commands/detailed/soulmate)
+#### Secret Life:
+- [`/task`](/commands/detailed/task)
+- [`/health`](/commands/detailed/health)
+- [`/gift`](/commands/detailed/gift)
+#### Wild Life:
+- [`/wildcard`](/commands/detailed/wildcard)
+- [`/superpower`](/commands/detailed/superpower)
+- [`/snail`](/commands/detailed/snail)
+- [`/hunger`](/commands/detailed/hunger)
 
 ## Quick Reference
 

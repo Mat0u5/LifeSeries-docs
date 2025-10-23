@@ -155,36 +155,10 @@ Only use this if, for example, your health bar count does not match with what yo
 
 ---
 
-## Related `/gift` command
-
-<div class="command-block">
-
-### `/gift`
-
-Give one free heart to another player.
-
-```
-/gift <player>
-```
-
-**Arguments:**
-- `<player>` - Target player
-
-**Permissions:** None required
-
-::: tip Usage limitations
-This command can only be run once per session.
-:::
-
-</div>
-
----
-
 ## Related Pages
 
 - [Task Command](/commands/detailed/task) - Managing Secret Life tasks
 - [Secret Life Guide](/guide/seasons/secretlife) - Full Secret Life mechanics
-
 
 ---
 
@@ -199,7 +173,6 @@ This command can only be run once per session.
 | `/health remove` | Operator            |
 | `/health reset`  | Operator            |
 | `/health sync`   | Operator            |
-| `/gift`          | None                |
 :::
 
 <style scoped>

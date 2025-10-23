@@ -108,8 +108,6 @@ Unless specified otherwise (using "*No permissions required.*"), all commands ca
 <details open>
 <summary>Other series specific commands</summary>
 
-- `/givelife <player>` - Gives one of your lives to `<player>`. *This command is only available when enabled in the config.* *No permissions required.*
-
 - `/hunger randomizeFood` - Randomizes food in the Hunger wildcard. *This command is only available when playing Wild Life.*
 
 - `/snail` - *These commands are only available when playing Wild Life.*

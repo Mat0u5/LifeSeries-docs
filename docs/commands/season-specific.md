@@ -6,7 +6,8 @@ Commands that are available in specific seasons.
 - [`/soulmate`](/commands/detailed/soulmate)
 ### Secret Life:
 - [`/task`](/commands/detailed/task)
-- [`/health`, `/gift`](/commands/detailed/health)
+- [`/health`](/commands/detailed/health)
+- [`/gift`](/commands/detailed/gift)
 ### Wild Life:
 - [`/wildcard`](/commands/detailed/wildcard)
 - [`/superpower`](/commands/detailed/superpower)
