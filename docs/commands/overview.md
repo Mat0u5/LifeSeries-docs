@@ -5,35 +5,29 @@ Each of the following commands has further sub-commands, as detailed in:
 - [Global Commands](/commands/global)
 - [Season-Specific Commands](/commands/season-specific)
 
-## Permission Levels
-TODO
-Unless specified with "*No permissions required*", all commands require operator permissions.
-
-Commands marked with "*No permissions required*" can be used by any player.
-
 ## Core Commands
 
 ### Always Available
 These commands work regardless of which season is selected:
 
-- `/lifeseries` - Main mod management command
-- `/session` - Manage session timing
-- `/lives` - Manage player lives
-- `/claimkill` - Claim credit for indirect kills
-- `/watcher` - Manage spectator watchers
-- `/subin` - Handle player substitutions
+- [`/lifeseries`](/commands/detailed/lifeseries) - Main mod management command
+- [`/session`](/commands/detailed/session) - Manage session timing
+- [`/lives`](/commands/detailed/lives) - Manage player lives
+- [`/claimkill`](/commands/detailed/claimkill) - Claim credit for indirect kills
+- [`/watcher`](/commands/detailed/watcher) - Manage spectator watchers
+- [`/subin`](/commands/detailed/subin) - Handle player substitutions
+- [`/boogeyman`](/commands/detailed/boogeyman) - Boogeyman manager
 
 ### Season-Specific
 These commands are only available in specific seasons:
 
-- `/boogeyman` - Available when Boogeyman is enabled
-- `/soulmate` - Only in Double Life
-- `/task` - Only in Secret Life
-- `/health` - Only in Secret Life
-- `/wildcard` - Only in Wild Life
-- `/superpower` - Only in Wild Life
-- `/snail` - Only in Wild Life
-- `/hunger` - Only in Wild Life (Hunger wildcard)
+- [`/soulmate`](/commands/detailed/soulmate) - Only in Double Life
+- [`/task`](/commands/detailed/task) - Only in Secret Life
+- [`/health`](/commands/detailed/health) - Only in Secret Life
+- [`/wildcard`](/commands/detailed/wildcard) - Only in Wild Life
+- [`/superpower`](/commands/detailed/superpower) - Only in Wild Life
+- [`/snail`](/commands/detailed/snail) - Only in Wild Life
+- [`/hunger`](/commands/detailed/hunger) - Only in Wild Life (Hunger wildcard)
 
 ## Quick Reference
 
