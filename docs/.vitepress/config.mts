@@ -90,6 +90,30 @@ export default defineConfig({
         items: [
           { text: 'Datapack Support', link: '/integration/datapacks' }
         ]
+      },
+      {
+        text: 'Detailed Commands',
+        collapsed: true,
+        items: [
+          { text: '/lifeseries', link: '/commands/detailed/lifeseries' },
+          { text: '/session', link: '/commands/detailed/session' },
+          { text: '/lives', link: '/commands/detailed/lives' },
+          { text: '/claimkill', link: '/commands/detailed/claimkill' },
+          { text: '/watcher', link: '/commands/detailed/watcher' },
+          { text: '/subin', link: '/commands/detailed/subin' },
+          { text: '/boogeyman', link: '/commands/detailed/boogeyman' },
+          { text: '/givelife', link: '/commands/detailed/givelife' },
+          { text: '/society', link: '/commands/detailed/society' },
+          
+          { text: '/soulmate', link: '/commands/detailed/soulmate' },
+          { text: '/task', link: '/commands/detailed/task' },
+          { text: '/health', link: '/commands/detailed/health' },
+          { text: '/gift', link: '/commands/detailed/gift' },
+          { text: '/wildcard', link: '/commands/detailed/wildcard' },
+          { text: '/superpower', link: '/commands/detailed/superpower' },
+          { text: '/snail', link: '/commands/detailed/snail' },
+          { text: '/hunger', link: '/commands/detailed/hunger' }
+        ]
       }
     ],
 

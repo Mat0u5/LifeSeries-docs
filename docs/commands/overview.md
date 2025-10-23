@@ -18,6 +18,7 @@ These commands work regardless of which season is selected:
 - [`/subin`](/commands/detailed/subin) - Handle player substitutions
 - [`/boogeyman`](/commands/detailed/boogeyman) - Boogeyman manager
 - [`/givelife`](/commands/detailed/givelife) - Give lives to others
+- [`/society`](/commands/detailed/society) - Secret Society manager
 
 ### Season-Specific
 These commands are only available in specific seasons:
