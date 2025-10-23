@@ -101,15 +101,6 @@ Unless specified otherwise (using "*No permissions required.*"), all commands ca
 
 
 <details open>
-<summary>/claimkill</summary>
-
-*This command is only available when you have selected a Series.*
-- `/claimkill <player>` - Used when you'd want to claim credit for a kill. For example you kill a player as the Boogeyman with a trap, so you don't get automatically cured. Or when you gain something for killing players in a series (like Limited Life). An admin must confirm this claim for you to be given the kill rewards. *No permissions required.*
-- `/claimkill validate <killer> <victim>` - This is the command the admin uses to validate a claimed kill.
-</details>
-
-
-<details open>
 <summary>/watcher</summary>
 
 - `/watcher info` - Shows info on what the Watchers are.

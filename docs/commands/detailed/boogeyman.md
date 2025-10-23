@@ -207,12 +207,13 @@ Useful when someone has to leave the session early for example.
 If a Boogeyman kills someone with a trap or indirect method, they won't automatically be cured. They should use [`/claimkill`](/commands/detailed/claimkill) to claim credit, which an admin must validate.
 :::
 
-::: info [Config](/config/overview) Settings
+::: info Config Settings
 You can configure:
 - Number of Boogeymen selected
 - Force players to be the Boogeyman
 - Prevent players from being the Boogeyman
 - Kills needed to get cured
+- And much more \:)
 
 Check the config files for details.
 :::
