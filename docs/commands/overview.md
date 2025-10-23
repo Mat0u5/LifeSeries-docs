@@ -39,7 +39,7 @@ These commands are only available in specific seasons:
 
 ### Most Common Commands
 
-**Configuration:**
+**Setting and configuring a series:**
 ```
 /lifeseries chooseSeries
 /lifeseries config

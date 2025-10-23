@@ -71,7 +71,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Configuration',
+        text: 'Config',
         collapsed: false,
         items: [
           { text: 'Config Overview', link: '/config/overview' },
