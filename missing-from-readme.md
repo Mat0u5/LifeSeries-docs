@@ -65,16 +65,6 @@ All of this is configurable, which brings me to the next point, the **Config**.
 ## Commands & Subcommands
 Unless specified otherwise (using "*No permissions required.*"), all commands can only be used by opped players (permissionLevel >= 2)
 
-
-<details open>
-<summary>/watcher</summary>
-
-- `/watcher info` - Shows info on what the Watchers are.
-- `/watcher list` - Shows a list of all the Watchers.
-- `/watcher add <player>` - Adds `<player>` from the Watchers.
-- `/watcher remove <player>` - Removes `<player>` to the Watchers.
-</details>
-
 <details open>
 <summary>/wildcard</summary>
 
@@ -119,10 +109,6 @@ Unless specified otherwise (using "*No permissions required.*"), all commands ca
 <summary>Other series specific commands</summary>
 
 - `/givelife <player>` - Gives one of your lives to `<player>`. *This command is only available when enabled in the config.* *No permissions required.*
-
-- `/lives rollLives [<player>]` - Rolls 2-6 lives for everyone or for the `[<player>]`, if specified. *This command is only available when playing Last Life.*
-
-- `/gift <player>` - Gives one free heart to `<player>`. *This command is only available when playing Secret Life.* *No permissions required.*
 
 - `/hunger randomizeFood` - Randomizes food in the Hunger wildcard. *This command is only available when playing Wild Life.*
 
