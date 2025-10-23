@@ -126,15 +126,6 @@ Unless specified otherwise (using "*No permissions required.*"), all commands ca
 
 - `/hunger randomizeFood` - Randomizes food in the Hunger wildcard. *This command is only available when playing Wild Life.*
 
-- `/task` - *These commands are only available when playing Secret Life.*
-  - `/task succeed <player>` - Succeeds `<player>`'s task.
-  - `/task fail <player>` - Fails `<player>`'s task.
-  - `/task reroll <player>` - Re-rolls `<player>`'s task.
-  - `/task assignRandom <player/s>` - Assigns a random task to `<player/s>`.
-  - `/task clearTask <player>` - Clears the task book from `<player>`.
-  - `/task set <player> <difficulty> <task>` - Sets the `<player>`'s task to be `<task>` on the next randomization.
-  - `/task get <player>` - Shows you if `<player>` has a task, and the task itself you want to.
-
 - `/snail` - *These commands are only available when playing Wild Life.*
   - `/snail names get <player>` - Shows you the name of `<player>`'s snail. *No permissions required.*
   - `/snail names set <player> <name>` - Sets the name of `<player>`'s snail to `<name>`.
