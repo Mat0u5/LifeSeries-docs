@@ -25,10 +25,24 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Introduction', link: '/guide/introduction' },
-          { text: 'Installation', link: '/guide/installation' },
-          { text: 'Quick Start', link: '/guide/quick-start' },
           { text: 'Selecting a Series', link: '/guide/selecting-series' },
           { text: 'Starting a Session', link: '/guide/starting-session' }
+        ]
+      },
+      {
+        text: 'Features',
+        collapsed: false,
+        items: [
+          { text: 'Feature Overview', link: '/features/overview' },
+          { text: 'Life System', link: '/features/life-system' },
+          { text: 'Team Colors', link: '/features/team-colors' },
+          { text: 'Sessions', link: '/features/session-timer' },
+          { text: 'Boogeyman', link: '/features/boogeyman' },
+          { text: 'Secret Society', link: '/features/secret-society' },
+          { text: 'Blacklists', link: '/features/blacklists' },
+          { text: 'Enchantment Clamping', link: '/features/enchantment-clamping' },
+          { text: 'Watchers', link: '/features/watchers' },
+          { text: 'Substitutions', link: '/features/substitutions' }
         ]
       },
       {
@@ -53,21 +67,6 @@ export default defineConfig({
           { text: 'Command Overview', link: '/commands/overview' },
           { text: 'Global Commands', link: '/commands/global' },
           { text: 'Season-Specific Commands', link: '/commands/season-specific' }
-        ]
-      },
-      {
-        text: 'Features',
-        collapsed: false,
-        items: [
-          { text: 'Life System', link: '/features/life-system' },
-          { text: 'Team Colors', link: '/features/team-colors' },
-          { text: 'Sessions', link: '/features/session-timer' },
-          { text: 'Boogeyman', link: '/features/boogeyman' },
-          { text: 'Secret Society', link: '/features/secret-society' },
-          { text: 'Blacklists', link: '/features/blacklists' },
-          { text: 'Enchantment Clamping', link: '/features/enchantment-clamping' },
-          { text: 'Watchers', link: '/features/watchers' },
-          { text: 'Substitutions', link: '/features/substitutions' }
         ]
       },
       {

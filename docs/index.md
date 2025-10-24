@@ -19,17 +19,32 @@ hero:
       link: https://github.com/Mat0u5/LifeSeries
 
 features:
+  - title: Introduction
+    icon:
+        src: logo.png
+        width: 28
+        wrap: true
+    details: Learn how to select a series, start a session, and configure anything you want.
+    link: /guide/introduction
+    linkText: Get Started
+    
   - icon: 🎮
     title: All Seasons Included
     details: Play Third Life, Last Life, Double Life, Limited Life, Secret Life, Wild Life, Past Life, and the april fools seasons - all in one mod.
+    link: /seasons/overview
+    linkText: Season Overview
   
   - icon: ⚙️
     title: Quality of Life Features
     details: Automated lives tracking, team colors, session times, boogeyman, season twists, and much more.
+    link: /features/overview
+    linkText: Feature Overview
   
   - icon: 🔧
     title: Highly Configurable
     details: Over 100 customizable features, including default lives, boogeyman in any season, custom item blacklists, players subbing in, and much more.
+    link: /config/overview
+    linkText: Config Overview
 
 ---
 
@@ -40,12 +55,12 @@ Have questions, suggestions or bug fixes? Join the [Discord server](https://disc
 :::
 
 
-::: info TODO
-TODO
+::: warning Download the mod
+[Download on Modrinth](https://modrinth.com/mod/life-series)
 :::
 
-::: warning TODO
-TODO
+::: info Open Source Code
+Source code is available on [GitHub](https://github.com/Mat0u5/LifeSeries)
 :::
 
 ## Support me on Ko-Fi

@@ -9,15 +9,6 @@
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/mat0u5)
 
 
-## Features
-
-This mod contains every single season of the Life Series, so that's Third Life, Last Life, Double Life, Limited Life, Secret Life, Wild Life and Past Life.<br>
-It also contains april fools seasons, Real Life and Simple Life.
-
-| Third Life | Last Life | Double Life | Limited Life | Secret Life | **Wild Life** | Past Life |
-|------------|-----------|-------------|--------------|-------------|---------------|-----------|
-| Completed  | Completed | Completed   | Completed    | Completed   | Completed     | Completed |
-
 ## Wild Life
 This is the *only* full recreation of Wild Life that exists publicly, and it took a lot of work to make, so enjoy!<br>
 To play Wild Life, the mod must be installed on the server **and on the client** - every player needs to have the mod installed in order to play.<br>

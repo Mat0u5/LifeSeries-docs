@@ -12,6 +12,8 @@ That is: `Third Life`, `Last Life`, `Double Life`, `Limited Life`, `Secret Life`
 
 All in a single mod. No more shady, unmaintained, buggy datapacks.
 
+Read more about the features in this mod in [Feature Overview](/features/overview)
+
 ## Customizable
 A big part of this mod that it is very customizable. 
 
