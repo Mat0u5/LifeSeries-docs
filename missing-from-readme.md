@@ -66,23 +66,6 @@ All of this is configurable, which brings me to the next point, the **Config**.
 Unless specified otherwise (using "*No permissions required.*"), all commands can only be used by opped players (permissionLevel >= 2)
 
 <details open>
-<summary>Secret Society</summary>
-
-*This command is only available when the Secret Society has been enabled in the config.*
-- `/society begin` - Starts the Society with a random word (Can be changed in the config).
-- `/society begin <secret_word>` - Starts the Society with a specific word you type.
-- `/society end` - Ends the Secret Society.
-- `/society members add <player>` - Adds `<player>` to the Society.
-- `/society members remove <player>` - Removes `<player>` from the Society.
-- `/society members list` - Shows you the current members of the Society.
-<br><br>
-- `/society success` - Society members can use this if they succeed in their task. *No permissions required.*
-- `/society fail` - Society members can use this if they fail in their task. *No permissions required.*
-- `/initiate` - Initiates a member of the Society. *No permissions required.*
-</details>
-
-
-<details open>
 <summary>Other series specific commands</summary>
 
 - `/snail` - *These commands are only available when playing Wild Life.*
