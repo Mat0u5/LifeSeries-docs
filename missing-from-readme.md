@@ -9,11 +9,6 @@
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/mat0u5)
 
 
-# Life Series Mod
-This mod is a one-to-one recreation of [Grian](https://www.youtube.com/c/Grian)'s Life Series in minecraft fabric, with as many QOL features as possible. 
-That includes automated lives tracking, automated team colors, automated session timer, automatic Boogeyman selection and kill tracking, and much more.<br>
-The mod is *server-side required* and optional (**but very much recommended**) on the client-side, as that adds further QOL features (such as GUIs for most of the features, so you don't have to use the commands as much).<br>
-Join the [Discord](https://discord.gg/QWJxfb4zQZ) or make an issue if you want to submit any bugs or give suggestions.
 ## Features
 
 This mod contains every single season of the Life Series, so that's Third Life, Last Life, Double Life, Limited Life, Secret Life, Wild Life and Past Life.<br>
