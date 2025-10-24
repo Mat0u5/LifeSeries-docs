@@ -66,18 +66,6 @@ All of this is configurable, which brings me to the next point, the **Config**.
 Unless specified otherwise (using "*No permissions required.*"), all commands can only be used by opped players (permissionLevel >= 2)
 
 <details open>
-<summary>/superpower</summary>
-
-*This command is only available when playing Wild Life.*
-- `/superpower set <player> <power>` - Sets `<player>`'s superpower to `<power>`.
-- `/superpower get <player>` - Shows you `<player>`'s superpower.
-- `/superpower reset <player>` - Resets `<player>`'s superpowers.
-- `/superpower setRandom` - Assigns a random superpower to all online players.
-- `/superpower resetCooldown` - Resets your superpower cooldown.
-- `/superpower assignForRandomization <player> <power>` - Forces `<player>`'s superpower to be `<power>` when the next superpower randomization happens.
-</details>
-
-<details open>
 <summary>Secret Society</summary>
 
 *This command is only available when the Secret Society has been enabled in the config.*
