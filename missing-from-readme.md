@@ -85,8 +85,6 @@ Unless specified otherwise (using "*No permissions required.*"), all commands ca
 <details open>
 <summary>Other series specific commands</summary>
 
-- `/hunger randomizeFood` - Randomizes food in the Hunger wildcard. *This command is only available when playing Wild Life.*
-
 - `/snail` - *These commands are only available when playing Wild Life.*
   - `/snail names get <player>` - Shows you the name of `<player>`'s snail. *No permissions required.*
   - `/snail names set <player> <name>` - Sets the name of `<player>`'s snail to `<name>`.
