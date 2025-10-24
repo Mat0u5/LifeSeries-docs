@@ -11,7 +11,7 @@ In Secret Life, players have a separate health system from vanilla Minecraft - p
 Completing tasks grants hearts, while failing tasks costs hearts.
 :::
 
-::: warning 1 Heart is NOT 1 Health
+::: warning
 In Minecraft, 1 heart is 2 health points.<br>
 So when setting someone to, lets say, 20 hearts, you run `/health set <player> 40`
 :::

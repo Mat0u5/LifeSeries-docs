@@ -66,17 +66,6 @@ All of this is configurable, which brings me to the next point, the **Config**.
 Unless specified otherwise (using "*No permissions required.*"), all commands can only be used by opped players (permissionLevel >= 2)
 
 <details open>
-<summary>/wildcard</summary>
-
-*This command is only available when playing Wild Life.*
-- `/wildcard list` - Shows a list of all possible wildcards.
-- `/wildcard listActive` - Shows a list of all **active** wildcards.
-- `/wildcard activate <wildcard>` - Activates Wildcard with the name `<wildcard>`
-- `/wildcard deactivate <wildcard>` - Deactivates Wildcard with the name `<wildcard>`
-- `/wildcard choose` - Lets you choose the wildcard that will be used in the session via a GUI.
-</details>
-
-<details open>
 <summary>/superpower</summary>
 
 *This command is only available when playing Wild Life.*
