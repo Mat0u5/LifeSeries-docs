@@ -36,7 +36,7 @@ export default defineConfig({
           { text: 'Feature Overview', link: '/features/overview' },
           { text: 'Life System', link: '/features/life-system' },
           { text: 'Team Colors', link: '/features/team-colors' },
-          { text: 'Sessions', link: '/features/session-timer' },
+          { text: 'Sessions', link: '/features/session' },
           { text: 'Boogeyman', link: '/features/boogeyman' },
           { text: 'Secret Society', link: '/features/secret-society' },
           { text: 'Blacklists', link: '/features/blacklists' },

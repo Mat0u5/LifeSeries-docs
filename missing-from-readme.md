@@ -18,14 +18,6 @@ This is because Wild Life contains features which would be impossible to do with
 
 -----
 ## Usage
-### Selecting a series
-After first starting a server with this mod installed, you will need to choose the series you want.<br>
-You can do this with the `/lifeseries chooseSeries` command (or with the `/lifeseries setSeries <series>` command, if you don't have the mod installed client-side)<br>
-Don't worry, you don't have to remember all of this, you will be given instructions in chat ;) <br>
-
-### Starting a session
-To start a session, you must first set its length using `/session timer set <time>`. The `<time>` field is a string, which includes the hours, minutes and seconds you want the session to last - example valid values: `30m`,`1h`, `1h45m`, `2h35m20s`,...<br>
-After you set your session time, you can simply run `/session start` to start the session.<br>
 
 ### The Blacklists
 Every season has certain blacklisted items to prevent players from getting to overpowered, just like Grian's series, where some for example banned enchantment tables and similar OP items.<br>
