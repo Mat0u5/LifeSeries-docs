@@ -1,10 +1,10 @@
-# Real Life
+# Simple Life
 
 ## Overview
 
-Real Life is the first **april fools** season of the Life Series.
+Simple Life is the second **april fools** season of the Life Series.
 
-It is a simple season with no special mechanics - each player has 3 lives, and when they run out of lives, they are eliminated from the game.
+Simple Life is played on a superflat world, where custom Wandering Traders spawn that sell resources for dirt.
 
 ## Rules
 All players are given 3 lives at the beginning of the first session.
