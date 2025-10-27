@@ -217,7 +217,7 @@ Re-enables the Life Series mod functionality if it was previously disabled with 
 
 ## Related Pages
 
-- [Selecting a Series Guide](/guide/selecting-series) - Detailed walkthrough
+- [Selecting a Season](/guide/selecting-season) - A guide to selecting a season
 - [Config Overview](/config/overview) - All available settings
 
 ---

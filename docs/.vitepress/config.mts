@@ -25,7 +25,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Introduction', link: '/guide/introduction' },
-          { text: 'Selecting a Series', link: '/guide/selecting-series' },
+          { text: 'Selecting a Season', link: '/guide/selecting-season' },
           { text: 'Starting a Session', link: '/guide/starting-session' }
         ]
       },
@@ -76,7 +76,7 @@ export default defineConfig({
           { text: 'Config Overview', link: '/config/overview' },
           { text: 'General Settings', link: '/config/general' },
           { text: 'Season Settings', link: '/config/seasons' },
-          
+
           { text: 'Secret Life Tasks', link: '/config/secret-life-tasks' },
           { text: 'Wild Life Trivia', link: '/config/wild-life' },
           { text: 'Wild Life Snail Textures', link: '/config/wild-life' },

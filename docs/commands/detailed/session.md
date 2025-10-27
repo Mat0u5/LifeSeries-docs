@@ -185,7 +185,7 @@ This display is personal to you and doesn't affect other players. Each player ca
 
 ## Related Pages
 
-- [Selecting a Series Guide](/guide/selecting-series) - Must select a series first
+- [Selecting a Season](/guide/selecting-season) - You must select a season first
 
 ---
 

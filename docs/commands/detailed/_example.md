@@ -69,7 +69,7 @@ This command only works when you have the mod installed client-side.
 
 ## Related Pages
 
-- [Selecting a Series Guide](/guide/selecting-series) - Detailed walkthrough
+- [Selecting a Season](/guide/selecting-season) - A guide to selecting a season
 - [Config Overview](/config/overview) - All available settings
 
 ---

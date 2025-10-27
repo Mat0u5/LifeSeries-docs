@@ -54,7 +54,7 @@ If they fail, they are punished. If they succeed, they are rewarded.
 :::
 
 ::: details Wild Life
-Every session has it's own twist, a Wildcard, which affects the gameplay in a certain way.
+Every session has its own twist, a Wildcard, which affects the gameplay in a certain way.
 :::
 
 ## April Fools Seasons
@@ -82,3 +82,12 @@ Learn more about each season:
 - [Wild Life](/seasons/wild-life)
 - [Past Life](/seasons/past-life)
 - [April Fools Seasons](/seasons/april-fools)
+
+
+---
+
+## Related Pages
+
+- [Feature Overview](/features/overview) - More info about all the features of the mod
+
+---

@@ -22,4 +22,4 @@ Clicking on one of the commands above will bring you to a detailed page about th
 
 ## Related Pages
 
-- [Selecting a Series Guide](/guide/selecting-series) - Detailed walkthrough
+- [Selecting a Season](/guide/selecting-season) - A guide to selecting a season
