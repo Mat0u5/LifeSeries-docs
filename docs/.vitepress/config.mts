@@ -74,13 +74,14 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Config Overview', link: '/config/overview' },
-          { text: 'Accessing Config', link: '/config/accessing' },
           { text: 'General Settings', link: '/config/general' },
           { text: 'Season Settings', link: '/config/seasons' },
+          
           { text: 'Secret Life Tasks', link: '/config/secret-life-tasks' },
           { text: 'Wild Life Trivia', link: '/config/wild-life' },
           { text: 'Wild Life Snail Textures', link: '/config/wild-life' },
-          { text: 'Loot Tables', link: '/config/loot-tables' }
+          { text: 'Loot Tables', link: '/config/loot-tables' },
+          { text: 'Other Configurable Features', link: '/config/other' }
         ]
       },
       {

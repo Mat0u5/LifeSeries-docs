@@ -3,7 +3,8 @@
 Manage player substitutions when someone needs to be replaced (So when you have a replacement for an offline player).
 
 ::: tip What are Substitutions?
-Substitutions allow one player to take over for another, inheriting their lives, inventory, position, etc. This is useful when a player is not able to attend a session.
+Substitutions allow one player to take over for another, inheriting their lives, inventory, position, etc. This is useful when a player is not able to attend a session.<br>
+For more info, see the [Substitution Overview](/features/substitutions).
 :::
 
 ---
@@ -85,7 +86,7 @@ Removing a substitution restores the original player's data.
 
 ## Related Pages
 
-//TODO subin page
+- [Substitution Overview](/features/substitutions) - Detailed info about substitutions
 
 ---
 

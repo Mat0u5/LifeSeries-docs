@@ -2,7 +2,8 @@
 
 ::: tip What are the Watchers?
 Watchers are players who spectate the series without participating int.
-They are unaffected by most season mechanics, for example: They don't have lives, cannot become soulmates, ...
+They are unaffected by most season mechanics, for example: They don't have lives, cannot become soulmates, ...<br>
+For more info, see the [Watcher Overview](/features/watchers).
 :::
 
 ---
@@ -79,6 +80,7 @@ Removes a player from the Watchers.
 
 ## Related Pages
 
+- [Watcher Overview](/features/watchers) - Detailed info about the Wwatchers
 - [Config Overview](/config/overview) - Configure Watcher behavior
 
 ---

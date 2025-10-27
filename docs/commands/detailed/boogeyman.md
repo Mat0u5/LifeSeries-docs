@@ -8,7 +8,8 @@ Enabled by default in Last Life and Limited Life.
 :::
 
 ::: tip What is the Boogeyman?
-The Boogeyman is a randomly selected player, that must kill another player during the session to cure themselves, otherwise they will be punished.
+The Boogeyman is a randomly selected player, that must kill another player during the session to cure themselves, otherwise they will be punished.<br>
+For more information, see the [Boogeyman Overview](/features/boogeyman).
 :::
 
 ---
@@ -197,6 +198,7 @@ Useful when someone has to leave the session early for example.
 
 ## Related Pages
 
+- [Boogeyman Overview](/features/boogeyman) - Detailed info about the Boogeyman
 - [Config Overview](/config/overview) - Configure Boogeyman settings
 - [Claim Kill Command](/commands/detailed/claimkill) - For indirect kills
 

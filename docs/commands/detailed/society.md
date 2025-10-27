@@ -4,7 +4,8 @@ Manage the Secret Society system.
 
 ::: info Availability
 These commands are only available when the **Secret Society has been enabled** in the config.<br>
-It is enabled by default in Past Life.
+It is enabled by default in Past Life.<br>
+For more information, see the [Secret Society Overview](/features/secret-society).
 :::
 
 ---
@@ -184,6 +185,7 @@ Configure Secret Society settings in the [config](/config/overview):
 
 ## Related Pages
 
+- [Secret Society Overview](/features/secret-society) - Detailed info about the Secret Society
 - [Config Overview](/config/overview) - Configure Secret Society settings
 
 ---
