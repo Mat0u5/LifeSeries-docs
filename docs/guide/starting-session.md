@@ -28,3 +28,4 @@ If you need to end the session prematurely, you can use `/session stop`. This wi
 ## Related Pages
 
 - [/session command](/commands/detailed/session) - Detailed info about the main `/session` command.
+- [Session Overview](/features/session) - Detailed info about Sessions.
