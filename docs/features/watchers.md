@@ -14,7 +14,7 @@ Use the [`/watcher`](/commands/detailed/watcher) command to manage the Watchers.
 
 ## Customizability
 
-Some aspects of the Life System can be customized in the [Config](/config/overview).
+Some aspects of the Watcher system can be customized in the [Config](/config/overview).
 
 Such as:
 - Whether Watchers show up in the tab list for non-watcher players.
