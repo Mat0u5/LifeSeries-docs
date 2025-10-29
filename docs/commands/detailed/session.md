@@ -2,6 +2,8 @@
 
 Manage session timing and control session state.
 
+See [Session](/features/session) for more info about sessions.
+
 ::: info Availability
 This command is only available when you have **selected a series**.
 :::

@@ -1,8 +1,10 @@
 #  `/watcher` Command
 
 ::: tip What are the Watchers?
-Watchers are players who spectate the series without participating int.
-They are unaffected by most season mechanics, for example: They don't have lives, cannot become soulmates, ...<br>
+Watchers are players who spectate the series without participating in it.
+
+They are unaffected by most season mechanics, for example: They don't have lives, cannot become soulmates, ...
+
 For more info, see the [Watcher Overview](/features/watchers).
 :::
 

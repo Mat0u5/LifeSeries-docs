@@ -35,14 +35,14 @@ export default defineConfig({
         items: [
           { text: 'Feature Overview', link: '/features/overview' },
           { text: 'Life System', link: '/features/life-system' },
-          { text: 'Team Colors', link: '/features/team-colors' },
           { text: 'Sessions', link: '/features/session' },
-          { text: 'Boogeyman', link: '/features/boogeyman' },
-          { text: 'Secret Society', link: '/features/secret-society' },
+          { text: 'Watchers', link: '/features/watchers' },
+          { text: 'Substitutions', link: '/features/substitutions' },
           { text: 'Blacklists', link: '/features/blacklists' },
           { text: 'Enchantment Clamping', link: '/features/enchantment-clamping' },
-          { text: 'Watchers', link: '/features/watchers' },
-          { text: 'Substitutions', link: '/features/substitutions' }
+          { text: 'Custom Recipes', link: '/features/custom-recipes' }
+          { text: 'Boogeyman', link: '/features/boogeyman' },
+          { text: 'Secret Society', link: '/features/secret-society' }
         ]
       },
       {

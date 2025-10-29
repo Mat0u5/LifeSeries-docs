@@ -2,6 +2,8 @@
 
 Manage and check player life counts.
 
+See [Life System](/features/life-system) for more info about lives.
+
 ::: info Availability
 This command is only available when you have **selected a series**.
 :::
