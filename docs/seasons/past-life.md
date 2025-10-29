@@ -1,15 +1,25 @@
-# Wild Life
+# Past Life
 
 ## Overview
 
-Wild Life is the sixth season of the Life Series.
+Past Life is the seventh season of the Life Series.
 
-The main twist of Wild Life is the addition of Wildcards.
+At the start of the session, an admin will be able to choose between playing with the [Secret Society](/features/secret-society) enabled, or with the [Boogeyman](/features/boogeyman) enabled.
 
-## Wildcards
-Every session, a random Wildcard is selected (or an admin can manually select one if they don't want it to be random).
+## Version Changing
+The main twist of Past Life is that every session is played on a different version of Minecraft. That, obviously, cannot be done with this one mod, as it's only compatible with 1.21+.
 
-A Wildcard essentially adds a unique twist to each session. Some Wildcards can be helpful, some can be deadly - each session is unique.
+I've made a separate project on Modrinth which has **only** the Past Life mod for each of the versions used in the original series.
+
+The separate Past Life mod can be found [here on Modrinth](https://modrinth.com/mod/past-life)
+
+::: warning
+Keep in mind that the setup is quite difficult for the earliest mc versions.
+
+Make sure you read the instructions on the Modrinth page for the Past Life mod.
+:::
+
+Past Life is still fully playable with this mod, it just won't have the different versions aspect.
 
 ## Lives
 All players are given 6 lives at the beginning of the first session.
@@ -23,11 +33,7 @@ All players are given 6 lives at the beginning of the first session.
 
 Dark green, green and Yellow players are not allowed to *initiate combat*, unless in self defence from a Red that *initiated combat* against you.
 
-Once you are Yellow, you can *initiate combat* on Dark Green players.
-
 Once you become a Red, you become hostile (= you can freely *initiate combat* on anyone), and you must cut all ties with other players and alliances.
-
-Killing a Dark Green player will gain you a life.
 
 :::info Initiate Combat
 Initiate Combat = causing any unlawful act, such as: attacking, griefing, stealing, trapping,...<br>
