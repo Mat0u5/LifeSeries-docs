@@ -19,7 +19,7 @@ All players are given 6 lives at the beginning of the first session.
 - Green = 3 lives
 - Yellow = 2 lives
 - Red = 1 life (hostile)
-  :::
+:::
 
 Dark green, green and Yellow players are not allowed to *initiate combat*, unless in self defence from a Red that *initiated combat* against you.
 

@@ -86,3 +86,18 @@ The Secret Society is a group of players that work together to kill players with
 :::tip
 Use the [`/society`](/commands/detailed/society) command to manage the Secret Society.
 :::
+
+---
+
+## Related Pages
+
+- [Config Overview](/config/overview) - Configure the mod settings
+- [Life System](/features/life-system)
+- [Sessions](/features/session)
+- [Watchers](/features/watchers)
+- [Substitutions](/features/substitutions)
+- [Blacklists](/features/blacklists)
+- [Enchantment Clamping](/features/enchantment-clamping)
+- [Custom Recipes](/features//custom-)
+- [Boogeyman](/features/boogeyman)
+- [Secret Society](/features/secret-society)
