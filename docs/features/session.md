@@ -11,4 +11,12 @@ Use the [`/session`](/commands/detailed/session) command to manage the session.
 :::
 
 ## Starting a Session
-Click here to learn more about [Starting a Session](/guide/starting-session).
+Learn about how to [Start a Session](/guide/starting-session).
+
+
+---
+
+## Related Pages
+
+- [Starting a Session](/guide/starting-session) - Starting a session guide
+- [/session command](/commands/detailed/session)
