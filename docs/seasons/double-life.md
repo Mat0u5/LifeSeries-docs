@@ -21,7 +21,7 @@ If you have absorption hearts, and you take damage, the damage will first go int
 If you have a Totem and you die, both you and your soulmate survive. If you have a totem and your soulmate dies, you will both die and your totem will not pop.
 :::
 
-## Rules
+## Lives
 All players are given 3 lives at the beginning of the first session.
 
 :::info Life Colors

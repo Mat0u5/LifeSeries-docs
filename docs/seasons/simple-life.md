@@ -6,7 +6,7 @@ Simple Life is the second **april fools** season of the Life Series.
 
 Simple Life is played on a superflat world, where custom Wandering Traders spawn that sell resources for dirt.
 
-## Rules
+## Lives
 All players are given 3 lives at the beginning of the first session.
 
 :::info Life Colors

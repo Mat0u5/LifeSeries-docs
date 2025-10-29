@@ -14,7 +14,7 @@ Players can use the `/givelife <player>` command to give one of their lives to a
 
 Enchanting tables are [blacklisted](/features/blacklists) in this season - there is only one table pre-placed in the world.
 
-## Rules
+## Lives
 All players are randomly given between 2 and 6 lives at the beginning of the first session.
 
 :::info Life Colors

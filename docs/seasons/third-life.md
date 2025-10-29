@@ -6,7 +6,7 @@ Third Life is the first season of the Life Series.
 
 It is a simple season with no special mechanics - each player has 3 lives, and when they run out of lives, they are eliminated from the game.
 
-## Rules
+## Lives
 All players are given 3 lives at the beginning of the first session.
 
 :::info Life Colors
