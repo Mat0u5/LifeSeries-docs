@@ -46,22 +46,6 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Life Series Seasons',
-        collapsed: false,
-        items: [
-          { text: 'Overview', link: '/seasons/overview' },
-          { text: 'Third Life', link: '/seasons/third-life' },
-          { text: 'Last Life', link: '/seasons/last-life' },
-          { text: 'Double Life', link: '/seasons/double-life' },
-          { text: 'Limited Life', link: '/seasons/limited-life' },
-          { text: 'Secret Life', link: '/seasons/secret-life' },
-          { text: 'Wild Life', link: '/seasons/wild-life' },
-          { text: 'Past Life', link: '/seasons/past-life' },
-          { text: 'Real Life', link: '/seasons/real-life' },
-          { text: 'Simple Life', link: '/seasons/simple-life' }
-        ]
-      },
-      {
         text: 'Commands',
         collapsed: false,
         items: [
@@ -86,6 +70,22 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Datapack Support', link: '/integration/datapacks' }
+        ]
+      },
+      {
+        text: 'Life Series Seasons',
+        collapsed: false,
+        items: [
+          { text: 'Overview', link: '/seasons/overview' },
+          { text: 'Third Life', link: '/seasons/third-life' },
+          { text: 'Last Life', link: '/seasons/last-life' },
+          { text: 'Double Life', link: '/seasons/double-life' },
+          { text: 'Limited Life', link: '/seasons/limited-life' },
+          { text: 'Secret Life', link: '/seasons/secret-life' },
+          { text: 'Wild Life', link: '/seasons/wild-life' },
+          { text: 'Past Life', link: '/seasons/past-life' },
+          { text: 'Real Life', link: '/seasons/real-life' },
+          { text: 'Simple Life', link: '/seasons/simple-life' }
         ]
       },
       {

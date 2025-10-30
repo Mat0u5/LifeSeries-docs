@@ -28,6 +28,9 @@ The Life Series Mod includes complete recreations of all official seasons, each 
 - **Wild Life**: 6 lives
 - **Past Life**: 6 lives
 
+- **Real Life**: 3 lives
+- **Simple Life**: 3 lives
+
 ### Unique Mechanics
 Almost every season has its own *twist*, which affects the gameplay in some way:
 
