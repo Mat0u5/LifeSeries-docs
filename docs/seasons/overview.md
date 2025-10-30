@@ -81,7 +81,10 @@ Learn more about each season:
 - [Secret Life](/seasons/secret-life)
 - [Wild Life](/seasons/wild-life)
 - [Past Life](/seasons/past-life)
-- [April Fools Seasons](/seasons/april-fools)
+
+- April Fools Seasons:
+  - [Real Life](/seasons/real-life)
+  - [Simple Life](/seasons/simple-life)
 
 
 ---

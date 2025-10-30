@@ -187,7 +187,7 @@ See [Secret Life Tasks Config](/config/secret-life-tasks)
 
 ## Related Pages
 
-- [Secret Life Guide](/guide/seasons/secretlife) - Full Secret Life mechanics
+- [Secret Life Guide](/guide/seasons/secret-life) - Full Secret Life mechanics
 - [Config Overview](/config/overview) - Configure Boogeyman settings
 - [Secret Life Task Config](/config/secret-life-tasks) - Secret Life tasks
 - [Health Command](/commands/detailed/health) - Managing hearts in Secret Life

@@ -30,7 +30,7 @@ This command can only be run once per session.
 
 ## Related Pages
 
-- [Secret Life Guide](/guide/seasons/secretlife) - Full Secret Life mechanics
+- [Secret Life Guide](/guide/seasons/secret-life) - Full Secret Life mechanics
 
 
 ---

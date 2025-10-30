@@ -161,7 +161,7 @@ Useful for testing superpowers.
 ## Related Pages
 
 - [Wildcard Command](/commands/detailed/wildcard) - Managing wildcards
-- [Wild Life Guide](/guide/seasons/wildlife) - Full Wild Life mechanics
+- [Wild Life Guide](/guide/seasons/wild-life) - Full Wild Life mechanics
 - [Config Overview](/config/overview) - Configure superpower settings
 
 ---

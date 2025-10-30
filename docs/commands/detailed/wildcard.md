@@ -114,7 +114,7 @@ This command only works when you have the mod installed client-side.
 - [Superpower Command](/commands/detailed/superpower) - Managing superpowers wildcard
 - [Snail Command](/commands/detailed/snail) - Managing snails wildcard
 - [Hunger Command](/commands/detailed/hunger) - Managing hunger wildcard
-- [Wild Life Guide](/guide/seasons/wildlife) - Full Wild Life mechanics
+- [Wild Life Guide](/guide/seasons/wild-life) - Full Wild Life mechanics
 - [Config Overview](/config/overview) - Configure wildcard settings
 
 ---

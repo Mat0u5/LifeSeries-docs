@@ -150,7 +150,7 @@ Use this after adding / editing snail texture files to apply them without restar
 ## Related Pages
 
 - [Wildcard Command](/commands/detailed/wildcard) - Managing wildcards
-- [Wild Life Guide](/guide/seasons/wildlife) - Full Wild Life mechanics
+- [Wild Life Guide](/guide/seasons/wild-life) - Full Wild Life mechanics
 
 ---
 

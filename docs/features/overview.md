@@ -98,6 +98,6 @@ Use the [`/society`](/commands/detailed/society) command to manage the Secret So
 - [Substitutions](/features/substitutions)
 - [Blacklists](/features/blacklists)
 - [Enchantment Clamping](/features/enchantment-clamping)
-- [Custom Recipes](/features//custom-)
+- [Custom Recipes](/features//custom-recipes)
 - [Boogeyman](/features/boogeyman)
 - [Secret Society](/features/secret-society)
