@@ -19,4 +19,4 @@ Make sure you follow the existing syntax of the JSON files, or it will not work.
 
 ## Related Pages
 
-- [Config Overview](/config/overview) - All about the config.
+- [Config Overview](/config/overview) - All available settings.
