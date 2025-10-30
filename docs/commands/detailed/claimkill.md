@@ -16,7 +16,7 @@ So in seasons where kills are rewarded, or when you are the Boogeyman for exampl
 
 ### `/claimkill`
 
-Submit a claim for credit on a kill.
+Submit a claim for credit on an indirect kill.
 
 ```
 /claimkill <player>

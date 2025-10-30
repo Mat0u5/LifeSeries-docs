@@ -40,7 +40,7 @@ export default defineConfig({
           { text: 'Substitutions', link: '/features/substitutions' },
           { text: 'Blacklists', link: '/features/blacklists' },
           { text: 'Enchantment Clamping', link: '/features/enchantment-clamping' },
-          { text: 'Custom Recipes', link: '/features/custom-recipes' }
+          { text: 'Custom Recipes', link: '/features/custom-recipes' },
           { text: 'Boogeyman', link: '/features/boogeyman' },
           { text: 'Secret Society', link: '/features/secret-society' }
         ]
