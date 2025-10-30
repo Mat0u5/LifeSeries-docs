@@ -74,8 +74,6 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Config Overview', link: '/config/overview' },
-          { text: 'General Settings', link: '/config/general' },
-          { text: 'Season Settings', link: '/config/seasons' },
 
           { text: 'Secret Life Tasks', link: '/config/secret-life-tasks' },
           { text: 'Wild Life Trivia', link: '/config/wild-life' },
