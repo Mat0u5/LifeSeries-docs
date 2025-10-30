@@ -52,6 +52,5 @@ Some configurable features of the mod are more complex, and **require** editing 
 
 That includes:
 - [Secret Life Tasks](/config/secret-life-tasks)
-- [Secret Life Task Rewards](/config/secret-life-rewards)
 - [Wild Life Trivia](/config/wild-life-trivia)
 - [Wild Life Snails](/config/wild-life-snails)

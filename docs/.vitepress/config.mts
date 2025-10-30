@@ -76,7 +76,6 @@ export default defineConfig({
           { text: 'Config Overview', link: '/config/overview' },
 
           { text: 'Secret Life Tasks', link: '/config/secret-life-tasks' },
-          { text: 'Secret Life Task Rewards', link: '/config/secret-life-rewards' },
           { text: 'Wild Life Trivia', link: '/config/wild-life-trivia' },
           { text: 'Wild Life Snail Textures', link: '/config/wild-life-snails' }
         ]
