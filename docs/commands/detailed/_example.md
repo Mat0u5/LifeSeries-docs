@@ -6,7 +6,6 @@ A short command description.
 This command is **always available**, regardless of whether a series has been selected.
 :::
 
-
 ---
 
 ## Category
