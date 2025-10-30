@@ -158,7 +158,7 @@ Only use this if, for example, your health bar count does not match with what yo
 ## Related Pages
 
 - [Task Command](/commands/detailed/task) - Managing Secret Life tasks
-- [Secret Life Guide](/guide/seasons/secret-life) - Full Secret Life mechanics
+- [Secret Life Guide](/seasons/secret-life) - Full Secret Life mechanics
 
 ---
 

@@ -144,7 +144,7 @@ This removes ALL soulmate pairs. Even pairings of players that are offline.
 
 ## Related Pages
 
-- [Double Life Guide](/guide/seasons/double-life) - Full Double Life mechanics
+- [Double Life Guide](/seasons/double-life) - Full Double Life mechanics
 - [Lives Command](/commands/detailed/lives) - Managing lives
 
 ---

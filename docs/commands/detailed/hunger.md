@@ -48,7 +48,7 @@ You can customize:
 ## Related Pages
 
 - [Wildcard Command](/commands/detailed/wildcard) - Managing wildcards
-- [Wild Life Guide](/guide/seasons/wild-life) - Full Wild Life mechanics
+- [Wild Life Guide](/seasons/wild-life) - Full Wild Life mechanics
 - [Config Overview](/config/overview) - Configure hunger wildcard settings
 
 ---
