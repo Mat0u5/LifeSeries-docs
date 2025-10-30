@@ -1,6 +1,6 @@
 # Config Overview
 
-This mod has a LOT of configurable features, so anyone can play exactly the way they want to.
+This mod has over 100 configurable features, so anyone can play exactly the way they want to.
 
 Each season has its own separate config file - So that means that changing settings for one season does not affect any other seasons.
 
@@ -9,9 +9,10 @@ Each season has its own separate config file - So that means that changing setti
 The config can be accessed in two main ways:
 
 ### Via the in-game GUI:
-
 :::warning This is the recommended way to access the config
 :::
+
+![config.png](/config.png)
 
 To access the in-game config GUI, you can use the `/lifeseries config` command.
 
@@ -45,3 +46,12 @@ Server-side config options affect all players on the server - for example, start
 Global config options are available in all seasons, such as being able to turn on/off the Boogeyman, or changing the starting amount of lives.
 
 Season config options are specific to each season, such as wildcard options for Wild Life, and they are only available in that season.
+
+## Advanced Configs
+Some configurable features of the mod are more complex, and **require** editing JSON files in the `config/lifeseries/*` folder.
+
+That includes:
+- [Secret Life Tasks](/config/secret-life-tasks)
+- [Secret Life Task Rewards](/config/secret-life-rewards)
+- [Wild Life Trivia](/config/wild-life-trivia)
+- [Wild Life Snails](/config/wild-life-snails)
