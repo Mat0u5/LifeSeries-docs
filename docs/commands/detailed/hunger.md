@@ -14,17 +14,13 @@ This command is only available in **Wild Life** when the Hunger wildcard is acti
 
 ### `/hunger randomizeFood`
 
-Randomizes food properties in the Hunger wildcard.
+This command randomizes which foods give food/saturation and the effects they give.
 
 ```
 /hunger randomizeFood
 ```
 
 **Permissions:** Operator
-
-::: info Effect
-This randomizes which foods give food/saturation and the effects they give.
-:::
 
 </div>
 

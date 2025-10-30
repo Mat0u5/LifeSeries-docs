@@ -8,6 +8,11 @@ At the start of each session, one player will become the [Boogeyman](/features/b
 
 The main twist of Limited Life is that the lives system is replaced with a time-based system.
 
+## The Boogeyman
+In Limited Life, the [Boogeyman](/features/boogeyman) rules are slightly modified compared to other seasons:
+- There is only one Boogeyman per session.
+- Once there are no more Green and Yellow players, Red players can also become the boogeyman, and they get cured by killing other Reds.
+
 ## Time
 
 In Limited Life, instead of lives, players have time.
@@ -28,11 +33,11 @@ If you kill a person, you gain 30 minutes.
 
 If you kill a person as the Boogeyman the time rewards / punishments for killing / dying will be doubled.
 
-Green and Yellow players are not allowed to *initiate combat*, unless in self defence from a Red or the Boogeyman that initiated combat against you.
+Dark green and green players are not allowed to *initiate combat*, unless in self defence from a Red that *initiated combat* against you.
 
-In Limited Life, Yellow players are allowed to *initiate combat* on **Green Players**. Let the chaos ensue!
+Once you are Yellow, you can *initiate combat* on Dark Green players.
 
-Once you become a Red, you become hostile (= you can freely *initiate combat* on anyone), and you must cut all ties with other players and alliances.
+Once you become a Red, you become hostile = you can freely *initiate combat* on anyone.
 
 :::info Initiate Combat
 Initiate Combat = causing any unlawful act, such as: attacking, griefing, stealing, trapping,...<br>

@@ -4,7 +4,7 @@ Manage the Boogeyman curse system.
 
 ::: info Availability
 This command is only available when the **Boogeyman has been enabled** in the [config](/config/overview).<br>
-Enabled by default in Last Life and Limited Life.
+Enabled by default in Last Life, Limited Life and Past Life.
 :::
 
 ::: tip What is the Boogeyman?

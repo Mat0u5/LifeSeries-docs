@@ -13,6 +13,9 @@ The Life Series Mod includes complete recreations of all official seasons, each 
 | [Secret Life](/seasons/secret-life)   | Completed | Task system, 30 non-regenerating hearts |
 | [Wild Life](/seasons/wild-life)       | Completed | 8 different Wildcards                   |
 | [Past Life](/seasons/past-life)       | Completed | Secret society                          |
+|                                       |           |                                         |
+| [Real Life](/seasons/past-life)       | Completed | April fools - Played in VR              |
+| [Simple Life](/seasons/past-life)     | Completed | April fools - Superflat world           | 
 
 ## Season Comparisons
 

@@ -57,7 +57,8 @@ export default defineConfig({
           { text: 'Secret Life', link: '/seasons/secret-life' },
           { text: 'Wild Life', link: '/seasons/wild-life' },
           { text: 'Past Life', link: '/seasons/past-life' },
-          { text: 'April Fools Seasons', link: '/seasons/april-fools' }
+          { text: 'Real Life', link: '/seasons/real-life' },
+          { text: 'Simple Life', link: '/seasons/simple-life' }
         ]
       },
       {
@@ -77,7 +78,7 @@ export default defineConfig({
 
           { text: 'Secret Life Tasks', link: '/config/secret-life-tasks' },
           { text: 'Wild Life Trivia', link: '/config/wild-life-trivia' },
-          { text: 'Wild Life Snail Textures', link: '/config/wild-life-snails' }
+          { text: 'Wild Life Snail Skins', link: '/config/wild-life-snails' }
         ]
       },
       {

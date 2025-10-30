@@ -17,7 +17,7 @@ Read more about the features in this mod in [Feature Overview](/features/overvie
 ## Customizable
 A big part of this mod that it is very customizable. 
 
-There are over 100 customizable features, ranging from default life counts and , to enabling the Boogeyman in any season.
+There are over 100 customizable features, including default lives, boogeyman in any season, custom item blacklists, players subbing in, and much more.
 
 Read more about customizability in the [Config Overview](/config/overview)
 

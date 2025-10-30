@@ -33,7 +33,7 @@ All players are given 6 lives at the beginning of the first session.
 
 Dark green, green and Yellow players are not allowed to *initiate combat*, unless in self defence from a Red that *initiated combat* against you.
 
-Once you become a Red, you become hostile (= you can freely *initiate combat* on anyone), and you must cut all ties with other players and alliances.
+Once you become a Red, you become hostile = you can freely *initiate combat* on anyone.
 
 :::info Initiate Combat
 Initiate Combat = causing any unlawful act, such as: attacking, griefing, stealing, trapping,...<br>
