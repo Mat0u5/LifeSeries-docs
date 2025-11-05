@@ -93,7 +93,10 @@ Learn more about each season:
   - [Simple Life](/seasons/simple-life)
 
 
----
+:::info Season Worlds
+If you want to play on the original worlds as the original Life Series (matching seeds and added structures),
+you can download them [here](https://www.dropbox.com/scl/fo/jk9fhqx0jjbgeo2qa6v5i/AOZZxMx6S7MlS9HrIRJkkX4?rlkey=2khwcnf2zhgi6s4ik01e3z9d0&st=ghw1d8k6&dl=0)
+:::
 
 ## Related Pages
 
