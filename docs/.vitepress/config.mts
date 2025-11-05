@@ -111,6 +111,13 @@ export default defineConfig({
           { text: '/snail', link: '/commands/detailed/snail' },
           { text: '/hunger', link: '/commands/detailed/hunger' }
         ]
+      },
+      {
+        text: 'Other',
+        collapsed: false,
+        items: [
+          { text: 'Credits', link: '/other/credits' }
+        ]
       }
     ],
 
