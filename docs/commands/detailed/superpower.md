@@ -97,17 +97,19 @@ This command resets all previous powers - that is, all players will get a brand-
 
 <div class="command-block">
 
-### `/superpower assignForRandomization`
+### `/superpower force`
 
 Forces a player's superpower to be a specific power when the next superpower randomization happens.
 
 ```
-/superpower assignForRandomization <player/s> <power>
+/superpower force <player/s> <power>
+/superpower force <player/s> clear
 ```
 
 **Arguments:**
 - `<player/s>` - Target player or players
 - `<power>` - The superpower to assign on next randomization
+- `clear` - Removes any forced randomization for that player.
 
 **Permissions:** Operator
 
