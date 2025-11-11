@@ -83,11 +83,13 @@ Forces a soulmate pairing for when the randomization happens.
 
 ```
 /soulmate force <player1> <player2>
+/soulmate force reset
 ```
 
 **Arguments:**
 - `<player1>` - First player
 - `<player2>` - Second player
+- `reset` - Resets all force entries
 
 **Permissions:** Operator
 
@@ -105,11 +107,13 @@ Prevents a soulmate pairing from being rolled when the randomization happens.
 
 ```
 /soulmate prevent <player1> <player2>
+/soulmate prevent reset
 ```
 
 **Arguments:**
 - `<player1>` - First player
 - `<player2>` - Second player
+- `reset` - Resets all prevent entries
 
 **Permissions:** Operator
 

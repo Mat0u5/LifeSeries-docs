@@ -103,13 +103,13 @@ Forces a player's superpower to be a specific power when the next superpower ran
 
 ```
 /superpower force <player/s> <power>
-/superpower force <player/s> clear
+/superpower force <player/s> reset
 ```
 
 **Arguments:**
 - `<player/s>` - Target player or players
 - `<power>` - The superpower to assign on next randomization
-- `clear` - Removes any forced randomization for that player.
+- `reset` - Removes any forced randomization for that player.
 
 **Permissions:** Operator
 
