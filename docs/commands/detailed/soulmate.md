@@ -77,6 +77,50 @@ Setting a player's soulmate automatically works both ways - you only need to run
 
 <div class="command-block">
 
+### `/soulmate force`
+
+Forces a soulmate pairing for when the randomization happens.
+
+```
+/soulmate force <player1> <player2>
+```
+
+**Arguments:**
+- `<player1>` - First player
+- `<player2>` - Second player
+
+**Permissions:** Operator
+
+::: info
+This is not stored anywhere, if you reset the server, the info is lost.
+:::
+
+</div>
+
+<div class="command-block">
+
+### `/soulmate prevent`
+
+Prevents a soulmate pairing from being rolled when the randomization happens.
+
+```
+/soulmate prevent <player1> <player2>
+```
+
+**Arguments:**
+- `<player1>` - First player
+- `<player2>` - Second player
+
+**Permissions:** Operator
+
+::: info
+This is not stored anywhere, if you reset the server, the info is lost.
+:::
+
+</div>
+
+<div class="command-block">
+
 ### `/soulmate rollRandom`
 
 Randomly assigns soulmate pairs from online players.
