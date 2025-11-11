@@ -179,6 +179,23 @@ This command is for manual intervention.
 
 <div class="command-block">
 
+### `/boogeyman reset`
+
+Resets a Boogeyman's fail/cure status.
+
+```
+/boogeyman reset <player/s>
+```
+
+**Arguments:**
+- `<player/s>` - Target player or players
+
+**Permissions:** Operator
+
+</div>
+
+<div class="command-block">
+
 ### `/boogeyman selfFail`
 
 Allows a Boogeyman to instantly fail their curse.<br>
