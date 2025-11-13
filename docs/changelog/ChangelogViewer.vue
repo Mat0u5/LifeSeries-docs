@@ -67,8 +67,8 @@ async function loadChangelogs() {
 
 function renderMarkdown(markdown) {
   let html = markdown
-    .replace('<', '⟨')
-    .replace('>', '⟩')
+    .replace('<', '[')
+    .replace('>', ']')
     .replace(/^### (.*$)/gim, '<h3>$1</h3>')
     .replace(/^## (.*$)/gim, '<h2>$1</h2>')
     .replace(/^# (.*$)/gim, '<h1>$1</h1>')
