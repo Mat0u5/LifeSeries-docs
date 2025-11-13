@@ -29,21 +29,36 @@ async function detectChangelogs() {
   }
 }
 
+function findClosestVersion(targetVersion, availableVersions) {
+  const sorted = availableVersions
+    .filter(v => compareVersions(v, targetVersion) <= 0)
+    .sort((a, b) => compareVersions(b, a))
+
+  return sorted[0] || null
+}
+
 onMounted(async () => {
+  await detectChangelogs()
+
   const params = new URLSearchParams(window.location.search)
   const versionRange = params.get('versions') || params.get('v')
 
   if (versionRange) {
+    const availableVersions = changelogMeta.value.map(m => m.version)
     const parts = versionRange.split('-')
+
     if (parts.length === 2) {
-      fromVersion.value = parts[0]
-      toVersion.value = parts[1]
+      const requestedFrom = parts[0]
+      const requestedTo = parts[1]
+
+      fromVersion.value = findClosestVersion(requestedFrom, availableVersions) || requestedFrom
+      toVersion.value = findClosestVersion(requestedTo, availableVersions) || requestedTo
     } else if (parts.length === 1) {
-      toVersion.value = parts[0]
+      const requestedTo = parts[0]
+      toVersion.value = findClosestVersion(requestedTo, availableVersions) || requestedTo
     }
   }
 
-  await detectChangelogs()
   await loadChangelogs()
 })
 
