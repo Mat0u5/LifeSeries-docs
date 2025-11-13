@@ -14,15 +14,11 @@ const loading = ref(true)
 async function detectChangelogs() {
   try {
     const files = import.meta.glob('./changelogs/*.md', { query: '?raw', import: 'default' })
-
     const entries = []
     for (const path in files) {
       const version = path.match(/(\d+(?:\.\d+)+)\.md$/)?.[1]
-      if (version) {
-        entries.push({ version, path, loader: files[path] })
-      }
+      if (version) entries.push({ version, path, loader: files[path] })
     }
-
     changelogMeta.value = entries.sort((a, b) => compareVersions(b.version, a.version))
   } catch (e) {
     console.error('Failed to detect changelog files:', e)
@@ -32,7 +28,6 @@ async function detectChangelogs() {
 onMounted(async () => {
   const params = new URLSearchParams(window.location.search)
   const versionRange = params.get('versions') || params.get('v')
-
   if (versionRange) {
     const parts = versionRange.split('-')
     if (parts.length === 2) {
@@ -42,7 +37,6 @@ onMounted(async () => {
       toVersion.value = parts[0]
     }
   }
-
   await detectChangelogs()
   await loadChangelogs()
 })
@@ -50,23 +44,25 @@ onMounted(async () => {
 async function loadChangelogs() {
   loading.value = true
   const loaded = []
-
   for (const meta of changelogMeta.value) {
     try {
       const markdown = await meta.loader()
-      const html = renderMarkdown(markdown)
+      const markdownWithHeader = `## Version ${meta.version}\n\n${markdown}`
+      const html = renderMarkdown(markdownWithHeader)
       loaded.push({ ...meta, content: html })
     } catch (error) {
       console.error(`Failed to load ${meta.path}:`, error)
     }
   }
-
   changelogs.value = loaded
   loading.value = false
 }
 
 function renderMarkdown(markdown) {
   let html = markdown
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
     .replace(/^### (.*$)/gim, '<h3>$1</h3>')
     .replace(/^## (.*$)/gim, '<h2>$1</h2>')
     .replace(/^# (.*$)/gim, '<h1>$1</h1>')
@@ -77,12 +73,9 @@ function renderMarkdown(markdown) {
     .replace(/^\s*[-*]\s+(.*)$/gim, '<li>$1</li>')
     .replace(/(<li>.*<\/li>\n?)+/gim, '<ul>$&</ul>')
     .replace(/\n{2,}/g, '</p><p>')
-    .replace(/\n/g, '<br>')
-
   if (!html.startsWith('<p>') && !html.startsWith('<h')) {
     html = '<p>' + html + '</p>'
   }
-
   return html
 }
 
@@ -100,18 +93,14 @@ function compareVersions(a, b) {
 
 const filteredChangelogs = computed(() => {
   errorMessage.value = ''
-
   if (!fromVersion.value && !toVersion.value) {
-      return [...changelogs.value].sort((a, b) => compareVersions(a.version, b.version))
-    }
-
+    return [...changelogs.value].sort((a, b) => compareVersions(a.version, b.version))
+  }
   const from = fromVersion.value
   const to = toVersion.value
-
   let filtered = changelogs.value.filter(log => {
     if (from && to) {
-      return compareVersions(log.version, from) > 0 &&
-             compareVersions(log.version, to) <= 0
+      return compareVersions(log.version, from) > 0 && compareVersions(log.version, to) <= 0
     } else if (from) {
       return compareVersions(log.version, from) > 0
     } else if (to) {
@@ -119,11 +108,9 @@ const filteredChangelogs = computed(() => {
     }
     return true
   })
-
   if (filtered.length === 0 && changelogs.value.length > 0) {
     errorMessage.value = `No changelogs found for version range ${from ? from + ' to ' : ''}${to || ''}`
   }
-
   return filtered.sort((a, b) => compareVersions(a.version, b.version))
 })
 </script>
@@ -132,7 +119,6 @@ const filteredChangelogs = computed(() => {
   <div class="changelog-viewer">
     <div class="version-selector">
       <h2>Changelog Viewer</h2>
-
       <div class="inputs">
         <div class="input-group">
           <label for="from">From Version:</label>
@@ -143,7 +129,6 @@ const filteredChangelogs = computed(() => {
             </option>
           </select>
         </div>
-
         <div class="input-group">
           <label for="to">To Version:</label>
           <select id="to" v-model="toVersion">
@@ -155,17 +140,10 @@ const filteredChangelogs = computed(() => {
         </div>
       </div>
     </div>
-
     <div v-if="loading" class="loading">Loading changelogs...</div>
     <div v-if="errorMessage" class="error">{{ errorMessage }}</div>
-
     <div class="changelogs">
-      <div
-        v-for="log in filteredChangelogs"
-        :key="log.version"
-        class="changelog-entry"
-      >
-        <h2 id="version-{{ log.version }}">Version {{ log.version }}</h2>
+      <div v-for="log in filteredChangelogs" :key="log.version" class="changelog-entry">
         <div class="content" v-html="log.content"></div>
       </div>
     </div>
@@ -178,20 +156,17 @@ const filteredChangelogs = computed(() => {
   margin: 0 auto;
   padding: 20px;
 }
-
 .version-selector {
   background: var(--vp-c-bg-soft);
   padding: 0 16px 16px 16px;
   border-radius: 8px;
   margin-bottom: 32px;
 }
-
 .inputs {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
 }
-
 .input-group select {
   width: 100%;
   padding: 8px 12px;
@@ -200,34 +175,23 @@ const filteredChangelogs = computed(() => {
   background: var(--vp-c-bg);
   color: var(--vp-c-text-1);
 }
-
 .loading, .error {
   text-align: center;
   padding: 20px;
 }
-
 .changelogs {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
-
 .changelog-entry {
   background: var(--vp-c-bg-soft);
   padding: 0 16px 16px 16px;
   border-radius: 8px;
 }
-
-.changelog-entry h2 {
-  margin-top: 0;
-  padding-top: 16px;
-  color: var(--vp-c-brand);
-}
-
 .content {
   line-height: 1.6;
 }
-
 .content :deep(hr) {
   border: none;
   border-top: 1px solid var(--vp-c-border);
