@@ -14,11 +14,52 @@ This is the scoreboard that actually stores the lives of each player, and is use
 
 So running `/scoreboard players add <player> Lives 1` and `/lives reload` (to reload the player colors) is the same as running `/lives add <player> 1`.
 
-### Life Colors Teams
+### Customizable Life Colors and Amount Boundaries
 
-The Life Series Mod uses Minecraft teams to manage player colors based on their number of lives.
+:::warning INFO
+All the following can be modified simply through the config.
+
+Life team colors, life team names, life team boundaries, team can kill boundaries, team gain life boundaries.
 
 More info about this can be found in the [Life System](/features/life-system.md) page.
+:::
+
+Life colors use vanilla Teams to set the colors based on amount of lives - teams names have the `lives_x` format, where `x` is the boundary between another team.
+
+By default, there are 6 teams:
+- `lives_null` - Not Assigned
+- `lives_0` - Dead
+- `lives_1` - Red
+- `lives_2` - Yellow
+- `lives_3` - Green
+- `lives_4` - Dark Green
+
+#### Customizable Life Colors
+
+You can customize the color of teams just like any other team in Minecraft, using the `/team modify <team> color <color>` command.
+
+So for example, the `/team modify lives_4 color blue` command will make players with 4+ lives have blue names.
+
+:::info Deprecated
+This can be modified through the Config.
+:::
+
+#### Customizable Amount Boundaries
+
+While the four default boundaries are hardcoded in the mod, and cannot be changed, you can add more boundaries by creating new teams with the `lives_x` format.
+
+Players will be assigned to the team with the highest boundary that is less than or equal to their current amount of lives.
+
+For example, if you create a team called `lives_6`, all players with 6, 7, 8, ... lives will be assigned to that team, and the `lives_4` team will only be for players with 4 and 5 lives.
+
+Example:
+```
+# Add a team for players with 6 or more lives with the display name "Blue"
+/team add lives_6 "Blue"
+
+# Change the color of that team to blue
+/team modify lives_6 color blue
+```
 
 ### Custom Lives System
 
