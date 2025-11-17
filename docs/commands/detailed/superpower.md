@@ -75,13 +75,18 @@ Sets a specific superpower for a player.
 
 <div class="command-block">
 
-### `/superpower randomize`
+### `/superpower randomize [<player/s>]`
 
-Assigns a random superpower to all online players.
+Assigns a random superpower to all online (or all specified) players.
 
 ```
 /superpower randomize
+/superpower randomize <player/s>
 ```
+
+**Arguments:**
+- `*no argument*` - For all players
+- `<player/s>` - Target player or players
 
 **Permissions:** Operator
 
