@@ -125,12 +125,12 @@ This is not stored anywhere, if you reset the server, the info is lost.
 
 <div class="command-block">
 
-### `/soulmate rollRandom`
+### `/soulmate randomize`
 
 Randomly assigns soulmate pairs from online players.
 
 ```
-/soulmate rollRandom
+/soulmate randomize
 ```
 
 **Permissions:** Operator
@@ -204,7 +204,7 @@ This removes ALL soulmate pairs. Even pairings of players that are offline.
 | `/soulmate get`                | Operator            |
 | `/soulmate list`               | Operator            |
 | `/soulmate set`                | Operator            |
-| `/soulmate rollRandom`         | Operator            |
+| `/soulmate randomize`         | Operator            |
 | `/soulmate reset`              | Operator            |
 | `/soulmate resetAll`           | Operator            |
 :::

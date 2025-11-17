@@ -58,12 +58,12 @@ Perfect for admins who are also playing - you can verify Boogeymen were selected
 
 <div class="command-block">
 
-### `/boogeyman chooseRandom`
+### `/boogeyman randomize`
 
 Randomly selects the Boogeyman/Boogeymen from online players.
 
 ```
-/boogeyman chooseRandom
+/boogeyman randomize
 ```
 
 **Permissions:** Operator
@@ -246,7 +246,7 @@ Check the config files for details.
 |---------------------------|---------------------|
 | `/boogeyman list`         | Operator            |
 | `/boogeyman count`        | Operator            |
-| `/boogeyman chooseRandom` | Operator            |
+| `/boogeyman randomize` | Operator            |
 | `/boogeyman add`          | Operator            |
 | `/boogeyman remove`       | Operator            |
 | `/boogeyman clear`        | Operator            |

@@ -105,12 +105,12 @@ Shows an additional, clickable message in chat that can show you the task itself
 
 <div class="command-block">
 
-### `/task clearTask`
+### `/task clear`
 
 Removes the task book from a player's inventory.
 
 ```
-/task clearTask <player/s>
+/task clear <player/s>
 ```
 
 **Arguments:**
@@ -126,12 +126,12 @@ Removes the task book from a player's inventory.
 
 <div class="command-block">
 
-### `/task assignRandom`
+### `/task randomize`
 
 Assigns a random task to one or more players.
 
 ```
-/task assignRandom <player/s>
+/task randomize <player/s>
 ```
 
 **Arguments:**
@@ -196,15 +196,15 @@ See [Secret Life Tasks Config](/config/secret-life-tasks)
 
 ::: details Command Permissions Summary
 
-| Command                        | Permission Required |
-|--------------------------------|---------------------|
-| `/task assignRandom`           | Operator            |
-| `/task set`                    | Operator            |
-| `/task succeed`                | Operator            |
-| `/task fail`                   | Operator            |
-| `/task reroll`                 | Operator            |
-| `/task get`                    | Operator            |
-| `/task clearTask`              | Operator            |
+| Command           | Permission Required |
+|-------------------|---------------------|
+| `/task randomize` | Operator            |
+| `/task set`       | Operator            |
+| `/task succeed`   | Operator            |
+| `/task fail`      | Operator            |
+| `/task reroll`    | Operator            |
+| `/task get`       | Operator            |
+| `/task clear`     | Operator            |
 :::
 
 <style scoped>

@@ -75,12 +75,12 @@ Sets a specific superpower for a player.
 
 <div class="command-block">
 
-### `/superpower setRandom`
+### `/superpower randomize`
 
 Assigns a random superpower to all online players.
 
 ```
-/superpower setRandom
+/superpower randomize
 ```
 
 **Permissions:** Operator
@@ -114,7 +114,7 @@ Forces a player's superpower to be a specific power when the next superpower ran
 **Permissions:** Operator
 
 ::: info Queued Assignment
-This doesn't immediately assign the power - it queues it for the next time `/superpower setRandom` is run manually, or automatically when the session starts.
+This doesn't immediately assign the power - it queues it for the next time `/superpower randomize` is run manually, or automatically when the session starts.
 :::
 
 </div>
@@ -174,7 +174,7 @@ Useful for testing superpowers.
 |--------------------------------------|---------------------|
 | `/superpower get`                    | Operator            |
 | `/superpower set`                    | Operator            |
-| `/superpower setRandom`              | Operator            |
+| `/superpower randomize`              | Operator            |
 | `/superpower assignForRandomization` | Operator            |
 | `/superpower reset`                  | Operator            |
 | `/superpower skipCooldown`           | Operator            |
