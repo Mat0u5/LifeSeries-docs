@@ -81,6 +81,85 @@ Examples:
 
 In Double Life, all soulmates are given a tag, `soulmate_<index>`, where the index is determined by sorting all players by UUID and assigning consecutive numbers to each pair (starting from 1).
 
+## Boogeymen
+
+All Boogeymen are given the `boogeyman` tag.
+
+:::info
+This is purely to reflect the mod's values, modifying will not change any behavior.
+:::
+
+## Secret Society
+
+All Secret Society Members are given the `society_member` tag.
+
+:::info
+This is purely to reflect the mod's values, modifying will not change any behavior.
+:::
+
+## Active Wildcards
+
+The `Wildcards` scoreboard has a score for each wildcard. `1` if activated, otherwise `0`.
+
+:::info
+This is purely to reflect the mod's values, modifying will not change any behavior.
+:::
+
+## Player Superpowers
+
+The `PlayerSuperpowers` scoreboard has a score for every player, corresponding to the superpower index (see below).
+
+| Superpower        | Index |
+|-------------------|-------|
+| NULL              | 0     |
+| TIME_CONTROL      | 1     |
+| CREAKING          | 2     |
+| WIND_CHARGE       | 3     |
+| ASTRAL_PROJECTION | 4     |
+| SUPER_PUNCH       | 5     |
+| MIMICRY           | 6     |
+| TELEPORTATION     | 7     |
+| LISTENING         | 8     |
+| SHADOW_PLAY       | 9     | 
+| FLIGHT            | 10    | 
+| PLAYER_DISGUISE   | 11    | 
+| ANIMAL_DISGUISE   | 12    | 
+| TRIPLE_JUMP       | 13    | 
+| INVISIBILITY      | 14    | 
+| SUPERSPEED        | 15    | 
+| NECROMANCY        | 16    | 
+
+
+:::info
+This is purely to reflect the mod's values, modifying will not change any behavior.
+:::
+
+## Player Task Difficulty
+
+The `TaskDifficulty` scoreboard has a score for every player, corresponding to the task difficulty (see below)
+
+| Task | Score |
+|------|-------|
+| NONE | 0     |
+| EASY | 1     |
+| HARD | 2     |
+| RED  | 3     |
+
+## Player Task Difficulty
+
+The `Session` scoreboard has the following scores:
+- Length: Session length (in ticks)
+- PassedTime: Passed session time (in ticks)
+- Status: Session status (see below)
+
+| Session Status | Score |
+|----------------|-------|
+| UNASSIGNED     | 0     |
+| NOT_STARTED    | 1     |
+| STARTED        | 2     |
+| PAUSED         | 3     |
+| FINISHED       | 4     |
+
 ---
 
 ## Related Pages
