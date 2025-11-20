@@ -2,7 +2,7 @@ name: Deploy VitePress site to Pages
 
 on:
   push:
-    branches: [main]
+    branches: [main, dev]
   workflow_dispatch:
 
 permissions:
@@ -18,30 +18,69 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout main branch
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
-      
+          path: main
+
+      - name: Checkout dev branch
+        uses: actions/checkout@v4
+        with:
+          ref: dev
+          fetch-depth: 0
+          path: dev
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
-      
+          cache-dependency-path: main/package-lock.json
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      
-      - name: Install dependencies
+
+      # Build main branch
+      - name: Install dependencies (main)
+        working-directory: ./main
         run: npm ci
-      
-      - name: Build with VitePress
+
+      - name: Build main branch
+        working-directory: ./main
         run: npm run docs:build
-      
+
+      # Build dev branch with base path
+      - name: Install dependencies (dev)
+        working-directory: ./dev
+        run: npm ci
+
+      - name: Update VitePress config for dev branch
+        working-directory: ./dev
+        run: |
+          # Update the base path in config
+          sed -i "s|base: '/LifeSeries-docs/'|base: '/LifeSeries-docs/dev/'|g" docs/.vitepress/config.js || \
+          sed -i "s|base: '/LifeSeries-docs/'|base: '/LifeSeries-docs/dev/'|g" docs/.vitepress/config.ts || \
+          sed -i "s|base: '/LifeSeries-docs/'|base: '/LifeSeries-docs/dev/'|g" docs/.vitepress/config.mjs || \
+          sed -i "s|base: '/LifeSeries-docs/'|base: '/LifeSeries-docs/dev/'|g" docs/.vitepress/config.mts
+
+      - name: Build dev branch
+        working-directory: ./dev
+        run: npm run docs:build
+
+      # Combine both builds
+      - name: Combine builds
+        run: |
+          mkdir -p combined
+          cp -r main/docs/.vitepress/dist/* combined/
+          mkdir -p combined/dev
+          cp -r dev/docs/.vitepress/dist/* combined/dev/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vitepress/dist
+          path: combined
 
   deploy:
     environment:
