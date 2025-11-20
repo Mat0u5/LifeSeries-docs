@@ -1,9 +1,5 @@
 # Datapack Support
 
-::: danger In Progress
-A LOT more features regarding support for datapacks are planned - this is just a starting point!
-:::
-
 ## Lives Stuff
 
 ### Lives Scoreboard
@@ -76,20 +72,23 @@ Examples:
 - `/title @r[scores={Lives=1..2} title "You are the impostor"` - Shows the title to a random player with between 1 and 2 lives
 - `/boogeyman add @a[scores={Lives=4..}]` - Makes everyone with 4 or more lives a boogeyman
 
+## Accessible Mod Information
 
-## Soulmate tracking
+### Soulmate tracking
 
 In Double Life, all soulmates are given a tag, `soulmate_<index>`, where the index is determined by sorting all players by UUID and assigning consecutive numbers to each pair (starting from 1).
 
-## Boogeymen
+### Boogeymen
 
 All Boogeymen are given the `boogeyman` tag.
+Cured Boogeymen are given the `boogeyman_cured` tag.
+Failed Boogeymen are given the `boogeyman_failed` tag.
 
 :::info
 This is purely to reflect the mod's values, modifying will not change any behavior.
 :::
 
-## Secret Society
+### Secret Society
 
 All Secret Society Members are given the `society_member` tag.
 
@@ -97,7 +96,7 @@ All Secret Society Members are given the `society_member` tag.
 This is purely to reflect the mod's values, modifying will not change any behavior.
 :::
 
-## Active Wildcards
+### Active Wildcards
 
 The `Wildcards` scoreboard has a score for each wildcard. `1` if activated, otherwise `0`.
 
@@ -105,7 +104,7 @@ The `Wildcards` scoreboard has a score for each wildcard. `1` if activated, othe
 This is purely to reflect the mod's values, modifying will not change any behavior.
 :::
 
-## Player Superpowers
+### Player Superpowers
 
 The `PlayerSuperpowers` scoreboard has a score for every player, corresponding to the superpower index (see below).
 
@@ -134,7 +133,7 @@ The `PlayerSuperpowers` scoreboard has a score for every player, corresponding t
 This is purely to reflect the mod's values, modifying will not change any behavior.
 :::
 
-## Player Task Difficulty
+### Player Task Difficulty
 
 The `TaskDifficulty` scoreboard has a score for every player, corresponding to the task difficulty (see below)
 
@@ -145,7 +144,7 @@ The `TaskDifficulty` scoreboard has a score for every player, corresponding to t
 | HARD | 2     |
 | RED  | 3     |
 
-## Player Task Difficulty
+### Session Info
 
 The `Session` scoreboard has the following scores:
 - Length: Session length (in ticks)
@@ -159,6 +158,84 @@ The `Session` scoreboard has the following scores:
 | STARTED        | 2     |
 | PAUSED         | 3     |
 | FINISHED       | 4     |
+
+## Events
+
+In the [config](/config/overview), you can find the Events tab, which has event entries.
+
+Every event entry has a button and a text field.
+
+The button controls whether the original event still happens (`PASS`), or whether it gets cancelled (`CANCEL`)
+
+![img.png](/events.png)
+
+:::info
+Notice that some events cannot be canceled.
+:::
+
+The text field is the command that is run with the event.
+
+Each event also has different info which you can access in the command. e.g. `$(Player)` is the player in the event.
+
+You can run normal commands, or if you want something more complex, you can run functions (via a command), in which case the event info will be treated as function macros.
+
+### Examples
+
+#### PvP rewards
+
+![img.png](/events_pvp.png)
+
+:::info
+Since this can be done with a single command, we do not need to use functions.
+
+When hovering over the event name, we see that `$(Killer)` and `$(Victim)` are available to us, meaning we can use them in the command.
+:::
+
+
+#### Losing no lives upon death
+
+![img.png](/events_death.png)
+
+:::info
+`CANCEL` signifies that the original event - Player Death Punishment - was cancelled. Meaning that no one loses any lives for dying.
+
+Notice that the command field is empty, which is fully valid too - no extra commands are ran.
+:::
+
+#### Custom Boogeyman cure reward
+
+Let's look at something more complicated.
+
+![img.png](/events_boogey_cure.png)
+
+:::info
+Again, we're cancelling the original event (which has no effect on anything anyway since there's no default cure reward :>)
+
+We're running `/function example:cure`, and along with our `$(Player)` macro, the mod automatically runs this as `/function example:cure {Player:"<playerName>"}`
+
+
+```
+# Inside the example function
+
+$lives add $(Player) 1
+$give $(Player) diamond 8
+
+scoreboard objectives add Temp dummy
+scoreboard players set Boogeymen Temp 0
+execute as @a[tag=boogeyman,tag=!boogeyman_cured,tag=!boogeyman_failed] run scoreboard players add Boogeymen Temp 1
+
+tellraw @a [{"text":"There are "}, {"score": {"name": "Boogeymen", "objective": "Temp"}}, {"text":" Boogeymen remaining."}]
+
+scoreboard objectives remove Temp
+```
+
+So this makes it so that every time a boogeyman is cured, they are:
+1) Awarded 1 life
+2) Given 8 diamonds
+3) A message is sent out to all players saying `There are X Boogeymen remaining`.
+
+*This is just a proof of concept of what can be done.*
+:::
 
 ---
 
