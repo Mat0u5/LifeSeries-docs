@@ -165,7 +165,7 @@ In the [config](/config/overview), you can find the Events tab, which has event 
 
 Every event entry has a button and a text field.
 
-The button controls whether the original event still happens (`PASS`), or whether it gets cancelled (`CANCEL`)
+The button controls whether the original event still happens (`ALLOW`), or whether it gets cancelled (`OVERRIDE`)
 
 ![img.png](/events.png)
 
@@ -197,7 +197,7 @@ When hovering over the event name, we see that `$(Killer)` and `$(Victim)` are a
 ![img.png](/events_death.png)
 
 :::info
-`CANCEL` signifies that the original event - Player Death Punishment - was cancelled. Meaning that no one loses any lives for dying.
+`OVERRIDE` signifies that the original event - Player Death Punishment - was cancelled. Meaning that no one loses any lives for dying.
 
 Notice that the command field is empty, which is fully valid too - no extra commands are ran.
 :::
