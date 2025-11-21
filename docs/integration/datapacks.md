@@ -68,7 +68,8 @@ Note that this disables literally everything. The lives command, default lives, 
 Since the lives are a scoreboard, you can use selectors like `@a[scores={Lives=1}]` in your commands to select players with a certain number of lives.
 
 Examples:
-- `/give @a[scores={Lives=0}]` - Clears the inventory of all dead players
+- `/give @a[scores={Lives=1}] diamond_sword` - Gives a diamond sword to all red players
+- `/clear @a[scores={Lives=0}]` - Clears the inventory of all dead players
 - `/title @r[scores={Lives=1..2} title "You are the impostor"` - Shows the title to a random player with between 1 and 2 lives
 - `/boogeyman add @a[scores={Lives=4..}]` - Makes everyone with 4 or more lives a boogeyman
 
