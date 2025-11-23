@@ -6,6 +6,10 @@ Simple Life is the second **april fools** season of the Life Series.
 
 Simple Life is played on a superflat world, where custom Wandering Traders spawn that sell resources for dirt.
 
+## Custom World Type
+
+This mod adds the 'Simple Life' world type in the world creation screen - which is a flat world in ALL dimensions, and overworld does not have slime spawning.
+
 ## Lives
 All players are given 3 lives at the beginning of the first session.
 

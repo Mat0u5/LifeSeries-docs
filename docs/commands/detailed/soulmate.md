@@ -77,12 +77,60 @@ Setting a player's soulmate automatically works both ways - you only need to run
 
 <div class="command-block">
 
-### `/soulmate rollRandom`
+### `/soulmate force`
+
+Forces a soulmate pairing for when the randomization happens.
+
+```
+/soulmate force <player1> <player2>
+/soulmate force reset
+```
+
+**Arguments:**
+- `<player1>` - First player
+- `<player2>` - Second player
+- `reset` - Resets all force entries
+
+**Permissions:** Operator
+
+::: info
+This is not stored anywhere, if you reset the server, the info is lost.
+:::
+
+</div>
+
+<div class="command-block">
+
+### `/soulmate prevent`
+
+Prevents a soulmate pairing from being rolled when the randomization happens.
+
+```
+/soulmate prevent <player1> <player2>
+/soulmate prevent reset
+```
+
+**Arguments:**
+- `<player1>` - First player
+- `<player2>` - Second player
+- `reset` - Resets all prevent entries
+
+**Permissions:** Operator
+
+::: info
+This is not stored anywhere, if you reset the server, the info is lost.
+:::
+
+</div>
+
+<div class="command-block">
+
+### `/soulmate randomize`
 
 Randomly assigns soulmate pairs from online players.
 
 ```
-/soulmate rollRandom
+/soulmate randomize
 ```
 
 **Permissions:** Operator
@@ -156,7 +204,7 @@ This removes ALL soulmate pairs. Even pairings of players that are offline.
 | `/soulmate get`                | Operator            |
 | `/soulmate list`               | Operator            |
 | `/soulmate set`                | Operator            |
-| `/soulmate rollRandom`         | Operator            |
+| `/soulmate randomize`         | Operator            |
 | `/soulmate reset`              | Operator            |
 | `/soulmate resetAll`           | Operator            |
 :::

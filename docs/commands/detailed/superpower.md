@@ -75,13 +75,18 @@ Sets a specific superpower for a player.
 
 <div class="command-block">
 
-### `/superpower setRandom`
+### `/superpower randomize [<player/s>]`
 
-Assigns a random superpower to all online players.
+Assigns a random superpower to all online (or all specified) players.
 
 ```
-/superpower setRandom
+/superpower randomize
+/superpower randomize <player/s>
 ```
+
+**Arguments:**
+- `*no argument*` - For all players
+- `<player/s>` - Target player or players
 
 **Permissions:** Operator
 
@@ -97,22 +102,24 @@ This command resets all previous powers - that is, all players will get a brand-
 
 <div class="command-block">
 
-### `/superpower assignForRandomization`
+### `/superpower force`
 
 Forces a player's superpower to be a specific power when the next superpower randomization happens.
 
 ```
-/superpower assignForRandomization <player/s> <power>
+/superpower force <player/s> <power>
+/superpower force <player/s> reset
 ```
 
 **Arguments:**
 - `<player/s>` - Target player or players
 - `<power>` - The superpower to assign on next randomization
+- `reset` - Removes any forced randomization for that player.
 
 **Permissions:** Operator
 
 ::: info Queued Assignment
-This doesn't immediately assign the power - it queues it for the next time `/superpower setRandom` is run manually, or automatically when the session starts.
+This doesn't immediately assign the power - it queues it for the next time `/superpower randomize` is run manually, or automatically when the session starts.
 :::
 
 </div>
@@ -172,7 +179,7 @@ Useful for testing superpowers.
 |--------------------------------------|---------------------|
 | `/superpower get`                    | Operator            |
 | `/superpower set`                    | Operator            |
-| `/superpower setRandom`              | Operator            |
+| `/superpower randomize`              | Operator            |
 | `/superpower assignForRandomization` | Operator            |
 | `/superpower reset`                  | Operator            |
 | `/superpower skipCooldown`           | Operator            |
