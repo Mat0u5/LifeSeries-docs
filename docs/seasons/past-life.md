@@ -7,7 +7,7 @@ Past Life is the seventh season of the Life Series.
 At the start of the session, an admin will be able to choose between playing with the [Secret Society](/features/secret-society) enabled, or with the [Boogeyman](/features/boogeyman) enabled.
 
 ## Version Changing
-The main twist of Past Life is that every session is played on a different version of Minecraft. That, obviously, cannot be done with this one mod, as it's only compatible with 1.21+.
+The main twist of Past Life is that every session is played on a different version of Minecraft. That, obviously, cannot be done with this one mod, as it's only compatible with 1.20+.
 
 I've made a separate project on Modrinth which has **only** the Past Life mod for each of the versions used in the original series.
 

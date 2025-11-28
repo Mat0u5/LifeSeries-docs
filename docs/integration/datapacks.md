@@ -180,6 +180,10 @@ Each event also has different info which you can access in the command. e.g. `$(
 
 You can run normal commands, or if you want something more complex, you can run functions (via a command), in which case the event info will be treated as function macros.
 
+:::warning
+Function macros only work in 1.20.2+, as that's when they were added to Minecraft.
+:::
+
 ### Examples
 
 #### PvP rewards
