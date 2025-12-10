@@ -25,7 +25,17 @@ jobs:
           fetch-depth: 0
           path: main
 
+      - name: Check if dev branch exists
+        id: check_dev
+        run: |
+          if git ls-remote --heads origin dev | grep -q dev; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Checkout dev branch
+        if: steps.check_dev.outputs.exists == 'true'
         uses: actions/checkout@v4
         with:
           ref: dev
@@ -51,12 +61,13 @@ jobs:
         working-directory: ./main
         run: npm run docs:build
 
-      # Build dev branch with base path
       - name: Install dependencies (dev)
+        if: steps.check_dev.outputs.exists == 'true'
         working-directory: ./dev
         run: npm ci
 
       - name: Update VitePress config for dev branch
+        if: steps.check_dev.outputs.exists == 'true'
         working-directory: ./dev
         run: |
           # Update the base path in config
@@ -66,6 +77,7 @@ jobs:
           sed -i "s|base: '/LifeSeries-docs/'|base: '/LifeSeries-docs/dev/'|g" docs/.vitepress/config.mts
 
       - name: Build dev branch
+        if: steps.check_dev.outputs.exists == 'true'
         working-directory: ./dev
         run: npm run docs:build
 
@@ -74,8 +86,10 @@ jobs:
         run: |
           mkdir -p combined
           cp -r main/docs/.vitepress/dist/* combined/
-          mkdir -p combined/dev
-          cp -r dev/docs/.vitepress/dist/* combined/dev/
+          if [ -d "dev/docs/.vitepress/dist" ]; then
+            mkdir -p combined/dev
+            cp -r dev/docs/.vitepress/dist/* combined/dev/
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
