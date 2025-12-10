@@ -27,6 +27,7 @@ jobs:
 
       - name: Check if dev branch exists
         id: check_dev
+        working-directory: ./main
         run: |
           if git ls-remote --heads origin dev | grep -q dev; then
             echo "exists=true" >> $GITHUB_OUTPUT
