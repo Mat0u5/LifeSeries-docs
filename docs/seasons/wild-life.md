@@ -23,14 +23,16 @@ Hunger depletes a lot faster.
 :::
 :::info Snails Wildcard
 Every player has an immortal snail coming after them.<br>
-The snail moves slowly, but if it ever touches you, you die instantly.
+The snail moves slowly, but if it ever touches you, you die instantly.<br>
+More info about configurability - [Wild Life Snails](/config/wild-life-snails)
 :::
 :::info Time Dilation Wildcard
 Time slows down to a halt at the start of the session, gets faster and faster as time goes on.
 :::
 :::info Trivia Wildcard
 Trivia bots, custom entities that give you a trivia question, spawn for players.<br>
-Answering the question correctly gives you a reward, answering incorrectly gives you a punishment.
+Answering the question correctly gives you a reward, answering incorrectly gives you a punishment.<br>
+More info about configurability - [Wild Life Trivia](/config/wild-life-trivia)
 :::
 :::info Mob Swap Wildcard
 Mobs are periodically swapped with other random mobs throughout the session.

@@ -13,6 +13,7 @@ Commands that are available in specific seasons.
 - [`/superpower`](/commands/detailed/superpower)
 - [`/snail`](/commands/detailed/snail)
 - [`/hunger`](/commands/detailed/hunger)
+- [`/trivia`](/commands/detailed/trivia)
 
 ::: tip Tip
 Clicking on one of the commands above will bring you to a detailed page about that command.
