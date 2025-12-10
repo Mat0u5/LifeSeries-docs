@@ -73,6 +73,30 @@ This command toggles between paused and unpaused states. Run it once to pause, r
 
 </div>
 
+<div class="command-block">
+
+### `/session pause queue`
+
+Automatically pauses and unpauses the session timer at specific times.
+
+```
+/session pause queue <time> <duration>
+```
+
+**Arguments:**
+- `<time>` - When the session pauses in hours, minutes, and/or seconds format
+- `<duration>` - Duration (how long the session will remain paused) in hours, minutes, and/or seconds format
+
+**Permissions:** Operator
+
+```
+# Example:
+/session pause queue 1h 10m
+# Will cause the session to pause at the 1 hour mark for 10 minutes.
+```
+
+</div>
+
 ---
 
 ## Timer Management Commands

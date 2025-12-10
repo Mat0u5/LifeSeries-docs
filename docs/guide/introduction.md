@@ -41,7 +41,7 @@ Wild Life **requires** the mod to be installed client-side.
 
 I update this mod regularly when new minecraft versions come out, when new seasons of the Life Series are released, or when enough new content is added to the mod.
 
-All versions from 1.21.0 to the latest version are maintained - meaning that new features will be available in **all the versions the mod supports**.
+All versions from 1.20.0 to the latest version are maintained - meaning that new features will be available in **all the versions the mod supports**.
 
 If you want to play developer versions of the mod, they are available on a separate Modrinth page: [Life Series Dev](https://modrinth.com/mod/life-series-dev).
 
