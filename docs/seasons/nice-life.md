@@ -13,6 +13,8 @@ Once the clock strikes midnight, it stops moving.
 Everyone must sleep to pass the night, and can answer a question from the Santa Bot to get rewards.
 If you fail or if you get voted for, you will be put on the Naughty List.
 
+It constantly snows in Nice Life in all biomes, and snow layers accumulate infinitely.
+
 ## Naughty List
 
 Players on the naughty list have a purple name. They can be removed from the list by either dying, or by surviving until the next night (or session end).
