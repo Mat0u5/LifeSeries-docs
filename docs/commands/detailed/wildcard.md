@@ -108,6 +108,29 @@ This command only works when you have the mod installed client-side.
 
 </div>
 
+---
+
+## Other
+
+
+<div class="command-block">
+
+### `/wildcard effect`
+
+```
+/wildcard effect dots
+/wildcard effect makeItWild
+
+```
+
+**Arguments:**
+- `dots` - Shows the three dots to everyone that normally only show up when a wildcard is activated.
+- `makeItWild` - Shows the "Make It WILD" title to everyone that normally only shows up when callback ends.
+
+**Permissions:** Operator
+
+</div>
+
 
 ## Related Pages
 
@@ -121,13 +144,14 @@ This command only works when you have the mod installed client-side.
 
 ::: details Command Permissions Summary
 
-| Command                        | Permission Required |
-|--------------------------------|---------------------|
-| `/wildcard list`               | Operator            |
-| `/wildcard listActive`         | Operator            |
-| `/wildcard activate`           | Operator            |
-| `/wildcard deactivate`         | Operator            |
-| `/wildcard choose`             | Operator            |
+| Command                | Permission Required |
+|------------------------|---------------------|
+| `/wildcard list`       | Operator            |
+| `/wildcard listActive` | Operator            |
+| `/wildcard activate`   | Operator            |
+| `/wildcard deactivate` | Operator            |
+| `/wildcard choose`     | Operator            |
+| `/wildcard effect`     | Operator            |
 :::
 
 <style scoped>
