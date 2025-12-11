@@ -84,6 +84,7 @@ export default defineConfig({
           { text: 'Secret Life', link: '/seasons/secret-life' },
           { text: 'Wild Life', link: '/seasons/wild-life' },
           { text: 'Past Life', link: '/seasons/past-life' },
+          { text: 'Nice Life', link: '/seasons/nice-life' },
           { text: 'Real Life', link: '/seasons/real-life' },
           { text: 'Simple Life', link: '/seasons/simple-life' }
         ]
