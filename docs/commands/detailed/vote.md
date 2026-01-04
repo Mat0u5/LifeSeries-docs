@@ -26,6 +26,24 @@ Used by the Nice List players to vote for a player to get a life.
 
 </div>
 
+<div class="command-block">
+
+### `/vote forceNext`
+
+Forces the vote type for the next night.
+
+```
+/vote forceNext <type>
+```
+
+**Arguments:**
+- `<type>` - The vote type. One of `none`, `nicelist` or `naughtylist`.
+
+
+**Permissions:** Operator
+
+</div>
+
 
 ---
 
@@ -53,9 +71,10 @@ You can customize:
 
 ::: details Command Permissions Summary
 
-| Command  | Permission Required |
-|----------|---------------------|
-| `/voted` | None                |
+| Command           | Permission Required |
+|-------------------|---------------------|
+| `/vote`           | None                |
+| `/vote forceNext` | None                |
 :::
 
 <style scoped>
