@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue'
-import { useData } from 'vitepress'
+import { useData, withBase } from 'vitepress'
 
 const { site } = useData()
 
@@ -91,7 +91,8 @@ function renderMarkdown(markdown) {
       if (isExternal) {
         return `<a href="${url}" target="_blank" rel="noopener noreferrer">${text}</a>`
       } else {
-        return `<a href="${url}">${text}</a>`
+        const finalUrl = url.startsWith('/') ? withBase(url) : url
+        return `<a href="${finalUrl}">${text}</a>`
       }
     })
     .replace(/\*\*(.*?)\*\*/gim, '<strong>$1</strong>')
