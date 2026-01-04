@@ -14,6 +14,9 @@ Commands that are available in specific seasons.
 - [`/snail`](/commands/detailed/snail)
 - [`/hunger`](/commands/detailed/hunger)
 - [`/trivia`](/commands/detailed/trivia)
+### Nice Life:
+- [`/vote`](/commands/detailed/vote)
+- [`/nicelife`](/commands/detailed/nicelife)
 
 ::: tip Tip
 Clicking on one of the commands above will bring you to a detailed page about that command.

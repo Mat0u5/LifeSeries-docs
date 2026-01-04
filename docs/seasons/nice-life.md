@@ -10,8 +10,11 @@ Nice Life is the eighth season of the Life Series.
 
 
 Once the clock strikes midnight, it stops moving.
+
 Everyone must sleep to pass the night, and can answer a question from the Santa Bot to get rewards.
-If you fail or if you get voted for, you will be put on the Naughty List.
+
+Those that answer the question correctly are allowed to vote for players to be on the Nice or Naughty list.
+
 
 It constantly snows in Nice Life in all biomes, and snow layers accumulate infinitely.
 
@@ -19,9 +22,21 @@ It constantly snows in Nice Life in all biomes, and snow layers accumulate infin
 
 Players on the naughty list have a purple name. They can be removed from the list by either dying, or by surviving until the next night (or session end).
 
-They will glow periodically and lose the protection of a green or yellow name. Anyone can hunt down people on the naughty list. Purple names can still **defend** themselves
+They will glow periodically and lose the protection of a green or yellow name.
 
+Anyone can hunt down people on the naughty list.
 
+Purple names can still **defend** themselves
+
+## Nice List
+
+Players on the nice list have a pink name. 
+
+At sunset, players on the nice list will vote to give a non-pink name a life.
+
+The majority of the pinks must vote for the same player for the life to be given.
+
+Pink names are not allowed to be targeted by any other players, including reds.
 
 ## Lives
 All players are given 3 lives at the beginning of the first session.
