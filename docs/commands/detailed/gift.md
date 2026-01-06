@@ -25,6 +25,23 @@ This command can only be run once per session.
 
 </div>
 
+<div class="command-block">
+
+### `/gift reset`
+
+Resets the stored list of gifted hearts, allowing you to gift multiple throughout the session
+
+```
+/gift reset <player/s>
+```
+
+**Arguments:**
+- `<player/s>` - Target player or players
+
+**Permissions:** Operator
+
+</div>
+
 
 ---
 
@@ -32,6 +49,15 @@ This command can only be run once per session.
 
 - [Secret Life Guide](/seasons/secret-life) - Full Secret Life mechanics
 
+---
+
+::: details Command Permissions Summary
+
+| Command       | Permission Required |
+|---------------|---------------------|
+| `/gift`       | None                |
+| `/gift reset` | Operator            |
+:::
 
 ---
 <style scoped>

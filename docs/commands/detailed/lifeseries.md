@@ -49,17 +49,18 @@ Sets the current Life Series season using a command.
 
 **Available Series:**
 
-| Season                    | `<series>`   |
-|---------------------------|--------------|
-| Third Life                | `thirdlife`  |
-| Last Life                 | `lastlife`   |
-| Double Life               | `doublelife` |
+| Season                    | `<series>`    |
+|---------------------------|---------------|
+| Third Life                | `thirdlife`   |
+| Last Life                 | `lastlife`    |
+| Double Life               | `doublelife`  |
 | Limited Life              | `limitedlife` |
-| Secret Life               | `secretlife` |
-| Wild Life                 | `wildlife`   |
-| Past Life                 | `pastlife`   |
-| Real Life  (April Fools)  | `reallife`   |
-| Simple Life (April Fools) | `simplelife` |
+| Secret Life               | `secretlife`  |
+| Wild Life                 | `wildlife`    |
+| Past Life                 | `pastlife`    |
+| Nice Life                 | `nicelife`    |
+| Real Life  (April Fools)  | `reallife`    |
+| Simple Life (April Fools) | `simplelife`  |
 
 **Examples:**
 ```

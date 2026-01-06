@@ -62,7 +62,8 @@ export default defineConfig({
 
           { text: 'Secret Life Tasks', link: '/config/secret-life-tasks' },
           { text: 'Wild Life Trivia', link: '/config/wild-life-trivia' },
-          { text: 'Wild Life Snail Skins', link: '/config/wild-life-snails' }
+          { text: 'Wild Life Snail Skins', link: '/config/wild-life-snails' },
+          { text: 'Nice Life Trivia', link: '/config/nice-life-trivia' }
         ]
       },
       {
@@ -84,6 +85,7 @@ export default defineConfig({
           { text: 'Secret Life', link: '/seasons/secret-life' },
           { text: 'Wild Life', link: '/seasons/wild-life' },
           { text: 'Past Life', link: '/seasons/past-life' },
+          { text: 'Nice Life', link: '/seasons/nice-life' },
           { text: 'Real Life', link: '/seasons/real-life' },
           { text: 'Simple Life', link: '/seasons/simple-life' }
         ]
@@ -109,7 +111,11 @@ export default defineConfig({
           { text: '/wildcard', link: '/commands/detailed/wildcard' },
           { text: '/superpower', link: '/commands/detailed/superpower' },
           { text: '/snail', link: '/commands/detailed/snail' },
-          { text: '/hunger', link: '/commands/detailed/hunger' }
+          { text: '/hunger', link: '/commands/detailed/hunger' },
+          { text: '/trivia (wildlife)', link: '/commands/detailed/trivia-wildlife' },
+          { text: '/nicelife', link: '/commands/detailed/nicelife' },
+          { text: '/trivia (nicelife)', link: '/commands/detailed/trivia-nicelife' },
+          { text: '/vote', link: '/commands/detailed/vote' }
         ]
       },
       {

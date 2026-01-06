@@ -4,18 +4,19 @@ The Life Series Mod includes complete recreations of all official seasons, each 
 
 ## Seasons
 
-| Season                                | Status    | Key Features                            |
-|---------------------------------------|-----------|-----------------------------------------|
-| [Third Life](/seasons/third-life)     | Completed | No special features                     |
-| [Last Life](/seasons/last-life)       | Completed | 2-6 random lives, The Boogeyman         |
-| [Double Life](/seasons/double-life)   | Completed | Soulmates                               |
-| [Limited Life](/seasons/limited-life) | Completed | Time-based lives, The Boogeyman         |
-| [Secret Life](/seasons/secret-life)   | Completed | Task system, 30 non-regenerating hearts |
-| [Wild Life](/seasons/wild-life)       | Completed | 8 different Wildcards                   |
-| [Past Life](/seasons/past-life)       | Completed | Secret society                          |
-|                                       |           |                                         |
-| [Real Life](/seasons/past-life)       | Completed | April fools - Played in VR              |
-| [Simple Life](/seasons/past-life)     | Completed | April fools - Superflat world           | 
+| Season                                | Status      | Key Features                            |
+|---------------------------------------|-------------|-----------------------------------------|
+| [Third Life](/seasons/third-life)     | Completed   | No special features                     |
+| [Last Life](/seasons/last-life)       | Completed   | 2-6 random lives, The Boogeyman         |
+| [Double Life](/seasons/double-life)   | Completed   | Soulmates                               |
+| [Limited Life](/seasons/limited-life) | Completed   | Time-based lives, The Boogeyman         |
+| [Secret Life](/seasons/secret-life)   | Completed   | Task system, 30 non-regenerating hearts |
+| [Wild Life](/seasons/wild-life)       | Completed   | 8 different Wildcards                   |
+| [Past Life](/seasons/past-life)       | Completed   | Secret society                          |
+| [Nice Life](/seasons/nice-life)       | In Progress | Santa bot                               |
+|                                       |             |                                         |
+| [Real Life](/seasons/past-life)       | Completed   | April fools - Played in VR              |
+| [Simple Life](/seasons/past-life)     | Completed   | April fools - Superflat world           | 
 
 ## Season Comparisons
 
@@ -27,6 +28,7 @@ The Life Series Mod includes complete recreations of all official seasons, each 
 - **Secret Life**: 3 lives
 - **Wild Life**: 6 lives
 - **Past Life**: 6 lives
+- **Nice Life**: 3 lives
 
 - **Real Life**: 3 lives
 - **Simple Life**: 3 lives
@@ -63,6 +65,11 @@ If they fail, they are punished. If they succeed, they are rewarded.
 Every session has its own twist, a Wildcard, which affects the gameplay in a certain way.
 :::
 
+::: details Nice Life
+Nice Life is still in progress. Things may change.<br>
+Once the clock strikes midnight, it stops moving. Everyone must sleep to pass the night, and can answer a question from the Santa Bot to get rewards. 
+:::
+
 ## April Fools Seasons
 
 The mod also includes special April Fools seasons:
@@ -87,6 +94,7 @@ Learn more about each season:
 - [Secret Life](/seasons/secret-life)
 - [Wild Life](/seasons/wild-life)
 - [Past Life](/seasons/past-life)
+- [Nice Life](/seasons/nice-life)
 
 - April Fools Seasons:
   - [Real Life](/seasons/real-life)

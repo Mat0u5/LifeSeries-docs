@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue'
-import { useData } from 'vitepress'
+import { useData, withBase } from 'vitepress'
 
 const { site } = useData()
 
@@ -86,6 +86,15 @@ function renderMarkdown(markdown) {
     .replace(/^## (.*$)/gim, '<h2>$1</h2>')
     .replace(/^# (.*$)/gim, '<h1>$1</h1>')
     .replace(/^\s*[-]{3,}\s*$/gim, '<hr>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/gim, (match, text, url) => {
+      const isExternal = /^https?:\/\//i.test(url)
+      if (isExternal) {
+        return `<a href="${url}" target="_blank" rel="noopener noreferrer">${text}</a>`
+      } else {
+        const finalUrl = url.startsWith('/') ? withBase(url) : url
+        return `<a href="${finalUrl}">${text}</a>`
+      }
+    })
     .replace(/\*\*(.*?)\*\*/gim, '<strong>$1</strong>')
     .replace(/\*(.*?)\*/gim, '<em>$1</em>')
     .replace(/`([^`]+)`/gim, '<code>$1</code>')
@@ -180,7 +189,7 @@ const filteredChangelogs = computed(() => {
         :key="log.version"
         class="changelog-entry"
       >
-        <h2 id="version-{{ log.version }}">Version {{ log.version }}</h2>
+        <h2 :id="`version-${log.version}`">Version {{ log.version }}</h2>
         <div class="content" v-html="log.content"></div>
       </div>
     </div>
@@ -241,6 +250,17 @@ const filteredChangelogs = computed(() => {
 
 .content {
   line-height: 1.6;
+}
+
+.content :deep(a) {
+  color: var(--vp-c-brand);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.content :deep(a:hover) {
+  color: var(--vp-c-brand-dark);
+  text-decoration: underline;
 }
 
 .content :deep(hr) {

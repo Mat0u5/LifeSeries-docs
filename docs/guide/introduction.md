@@ -8,7 +8,7 @@ It adds everything from the original series, along with an incredible amount of 
 ## Feature Complete
 This mod faithfully recreates all the seasons of the Life Series - everything works exactly as in the originals.
 
-That is: `Third Life`, `Last Life`, `Double Life`, `Limited Life`, `Secret Life`, `Wild Life`, `Past Life`, and the April Fools seasons: `Real Life` and `Simple Life`.
+That is: `Third Life`, `Last Life`, `Double Life`, `Limited Life`, `Secret Life`, `Wild Life`, `Past Life`, `Nice Life`, and the April Fools seasons: `Real Life` and `Simple Life`.
 
 All in a single mod. No more shady, unmaintained, buggy datapacks.
 
@@ -33,8 +33,8 @@ While having the mod client-side is not required, having it adds a lot of cool f
 - Custom GUIs for managing the config.
 :::
 
-::: warning Wild Life
-Wild Life **requires** the mod to be installed client-side.
+::: warning Wild Life and Nice Life
+Wild Life and Nice Life **requires** the mod to be installed client-side.
 :::
 
 ## Actively Maintained
