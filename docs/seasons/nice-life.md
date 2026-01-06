@@ -1,9 +1,5 @@
 # Nice Life
 
-:::warning
-Nice Life is still in progress. Things may change.
-:::
-
 ## Overview
 
 Nice Life is the eighth season of the Life Series.
