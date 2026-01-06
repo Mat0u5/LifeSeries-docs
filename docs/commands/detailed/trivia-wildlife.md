@@ -66,7 +66,7 @@ Sets / clears the trivia punishment for players.
 
 **Arguments:**
 - `<player/s>` - Target player or players
-- `<punishment>` - one of: `slippery_ground`, `hunger`, `beeswarm`, `moonjump`, `robotic_voice`, `binding_armor`, `ravager`, `hearts`, `infestation`, `gigantification`
+- `<punishment>` - one of: `random`, `slippery_ground`, `hunger`, `beeswarm`, `moonjump`, `robotic_voice`, `binding_armor`, `ravager`, `hearts`, `infestation`, `gigantification`
 
 **Permissions:** Operator
 
@@ -88,7 +88,7 @@ You can add custom trivia questions, read more in [Wild Life Trivia](/config/wil
 - [Wildcard Command](/commands/detailed/wildcard) - Managing wildcards
 - [Wild Life Guide](/seasons/wild-life) - Full Wild Life mechanics
 - [Wild Life Trivia](/config/wild-life-trivia) - Custom trivia questions
-- [Config Overview](/config/overview) - Configure hunger wildcard settings
+- [Config Overview](/config/overview) - Configure settings
 
 ---
 

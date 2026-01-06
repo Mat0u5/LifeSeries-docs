@@ -13,10 +13,11 @@ Commands that are available in specific seasons.
 - [`/superpower`](/commands/detailed/superpower)
 - [`/snail`](/commands/detailed/snail)
 - [`/hunger`](/commands/detailed/hunger)
-- [`/trivia`](/commands/detailed/trivia)
+- [`/trivia`](/commands/detailed/trivia-wildlife)
 ### Nice Life:
 - [`/vote`](/commands/detailed/vote)
 - [`/nicelife`](/commands/detailed/nicelife)
+- [`/trivia`](/commands/detailed/trivia-nicelife)
 
 ::: tip Tip
 Clicking on one of the commands above will bring you to a detailed page about that command.

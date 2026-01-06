@@ -33,8 +33,8 @@ While having the mod client-side is not required, having it adds a lot of cool f
 - Custom GUIs for managing the config.
 :::
 
-::: warning Wild Life
-Wild Life **requires** the mod to be installed client-side.
+::: warning Wild Life and Nice Life
+Wild Life and Nice Life **requires** the mod to be installed client-side.
 :::
 
 ## Actively Maintained
