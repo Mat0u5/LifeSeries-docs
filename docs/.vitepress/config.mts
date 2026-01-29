@@ -103,6 +103,7 @@ export default defineConfig({
           { text: '/boogeyman', link: '/commands/detailed/boogeyman' },
           { text: '/givelife', link: '/commands/detailed/givelife' },
           { text: '/society', link: '/commands/detailed/society' },
+          { text: '/lifeskins', link: '/commands/detailed/lifeskins' },
 
           { text: '/soulmate', link: '/commands/detailed/soulmate' },
           { text: '/task', link: '/commands/detailed/task' },
