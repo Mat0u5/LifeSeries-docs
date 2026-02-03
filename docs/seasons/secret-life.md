@@ -14,6 +14,10 @@ Once per session, each player can freely gift one heart to another player, with 
 
 ## Tasks
 
+:::tip Configurable Tasks
+You can set your own tasks by following [this guide](/config/secret-life-tasks)
+:::
+
 Every session, players will be given a task to do. Players have time until the end of the session to complete their tasks, or else they automatically fail.
 
 Completing tasks gives you hearts (or items, if you are at the max of 30 hearts) as rewards.
