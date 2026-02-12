@@ -18,6 +18,8 @@ Commands that are available in specific seasons.
 - [`/vote`](/commands/detailed/vote)
 - [`/nicelife`](/commands/detailed/nicelife)
 - [`/trivia`](/commands/detailed/trivia-nicelife)
+- [`/nicelist`](/commands/detailed/nicelist)
+- [`/naughtylist`](/commands/detailed/naughtylist)
 
 ::: tip Tip
 Clicking on one of the commands above will bring you to a detailed page about that command.

@@ -34,6 +34,12 @@ These commands are only available in specific seasons:
 - [`/superpower`](/commands/detailed/superpower)
 - [`/snail`](/commands/detailed/snail)
 - [`/hunger`](/commands/detailed/hunger)
+### Nice Life:
+- [`/vote`](/commands/detailed/vote)
+- [`/nicelife`](/commands/detailed/nicelife)
+- [`/trivia`](/commands/detailed/trivia-nicelife)
+- [`/nicelist`](/commands/detailed/nicelist)
+- [`/naughtylist`](/commands/detailed/naughtylist)
 
 ## Quick Reference
 
