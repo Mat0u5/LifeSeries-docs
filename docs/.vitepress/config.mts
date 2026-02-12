@@ -116,8 +116,8 @@ export default defineConfig({
           { text: '/trivia (wildlife)', link: '/commands/detailed/trivia-wildlife' },
           { text: '/nicelife', link: '/commands/detailed/nicelife' },
           { text: '/trivia (nicelife)', link: '/commands/detailed/trivia-nicelife' },
-          { text: '/vote', link: '/commands/detailed/vote' }
-          { text: '/nicelist', link: '/commands/detailed/nicelist' }
+          { text: '/vote', link: '/commands/detailed/vote' },
+          { text: '/nicelist', link: '/commands/detailed/nicelist' },
           { text: '/naughtylist', link: '/commands/detailed/naughtylist' }
         ]
       },
