@@ -75,6 +75,10 @@ Examples:
 
 ## Accessible Mod Information
 
+:::info
+All the tags and scoreboard values are purely to reflect the mod's values, modifying them not change any behavior.
+:::
+
 ### Soulmate tracking
 
 In Double Life, all soulmates are given a tag, `soulmate_<index>`, where the index is determined by sorting all players by UUID and assigning consecutive numbers to each pair (starting from 1).
@@ -85,25 +89,13 @@ All Boogeymen are given the `boogeyman` tag.
 Cured Boogeymen are given the `boogeyman_cured` tag.
 Failed Boogeymen are given the `boogeyman_failed` tag.
 
-:::info
-This is purely to reflect the mod's values, modifying will not change any behavior.
-:::
-
 ### Secret Society
 
 All Secret Society Members are given the `society_member` tag.
 
-:::info
-This is purely to reflect the mod's values, modifying will not change any behavior.
-:::
-
 ### Active Wildcards
 
 The `Wildcards` scoreboard has a score for each wildcard. `1` if activated, otherwise `0`.
-
-:::info
-This is purely to reflect the mod's values, modifying will not change any behavior.
-:::
 
 ### Player Superpowers
 
@@ -127,12 +119,7 @@ The `PlayerSuperpowers` scoreboard has a score for every player, corresponding t
 | TRIPLE_JUMP       | 13    | 
 | INVISIBILITY      | 14    | 
 | SUPERSPEED        | 15    | 
-| NECROMANCY        | 16    | 
-
-
-:::info
-This is purely to reflect the mod's values, modifying will not change any behavior.
-:::
+| NECROMANCY        | 16    |
 
 ### Player Task Difficulty
 
@@ -159,6 +146,14 @@ The `Session` scoreboard has the following scores:
 | STARTED        | 2     |
 | PAUSED         | 3     |
 | FINISHED       | 4     |
+
+### Nice List
+
+All Nice List members are given the `nice_list` tag.
+
+### Naughty List
+
+All Naughty List members are given the `naughty_list` tag.
 
 ## Events
 

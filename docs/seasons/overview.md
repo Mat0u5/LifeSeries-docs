@@ -4,19 +4,19 @@ The Life Series Mod includes complete recreations of all official seasons, each 
 
 ## Seasons
 
-| Season                                | Status      | Key Features                            |
-|---------------------------------------|-------------|-----------------------------------------|
-| [Third Life](/seasons/third-life)     | Completed   | No special features                     |
-| [Last Life](/seasons/last-life)       | Completed   | 2-6 random lives, The Boogeyman         |
-| [Double Life](/seasons/double-life)   | Completed   | Soulmates                               |
-| [Limited Life](/seasons/limited-life) | Completed   | Time-based lives, The Boogeyman         |
-| [Secret Life](/seasons/secret-life)   | Completed   | Task system, 30 non-regenerating hearts |
-| [Wild Life](/seasons/wild-life)       | Completed   | 8 different Wildcards                   |
-| [Past Life](/seasons/past-life)       | Completed   | Secret society                          |
-| [Nice Life](/seasons/nice-life)       | In Progress | Santa bot                               |
-|                                       |             |                                         |
-| [Real Life](/seasons/past-life)       | Completed   | April fools - Played in VR              |
-| [Simple Life](/seasons/past-life)     | Completed   | April fools - Superflat world           | 
+| Season                                | Status    | Key Features                            |
+|---------------------------------------|-----------|-----------------------------------------|
+| [Third Life](/seasons/third-life)     | Completed | No special features                     |
+| [Last Life](/seasons/last-life)       | Completed | 2-6 random lives, The Boogeyman         |
+| [Double Life](/seasons/double-life)   | Completed | Soulmates                               |
+| [Limited Life](/seasons/limited-life) | Completed | Time-based lives, The Boogeyman         |
+| [Secret Life](/seasons/secret-life)   | Completed | Task system, 30 non-regenerating hearts |
+| [Wild Life](/seasons/wild-life)       | Completed | 8 different Wildcards                   |
+| [Past Life](/seasons/past-life)       | Completed | Secret society                          |
+| [Nice Life](/seasons/nice-life)       | Completer | Santa bot, Nice/Naughty list            |
+|                                       |           |                                         |
+| [Real Life](/seasons/past-life)       | Completed | April fools - Played in VR              |
+| [Simple Life](/seasons/past-life)     | Completed | April fools - Superflat world           | 
 
 ## Season Comparisons
 

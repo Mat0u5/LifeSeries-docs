@@ -1,19 +1,20 @@
 # Secret Life Tasks Config
 
-:::warning Config Files Only
-For now, Secret Life Tasks and task rewards can only be configured via the config files, and not the in-game GUI.
-:::
-
 ## Configuring Tasks
 
-Tasks can be customized in the config files:
+### Config GUI
+
+This is the recommended way to edit tasks.
+
+In the [Config](/config/overview), you can find the `Tasks` category under `Season Specific Settings`, where you can edit, add and remove tasks.
+
+![img.png](/config_tasks.png)
+
+### Config Files
+If you prefer a normal text editor interface over the config GUI, the tasks can also be changed in the following files, but make sure you follow the JSON syntax:
 - `config/lifeseries/secretlife/easy_tasks.json`
 - `config/lifeseries/secretlife/hard_tasks.json`
 - `config/lifeseries/secretlife/red_tasks.json`
-
-:::danger Important
-Make sure you follow the existing syntax of the JSON files, or it will not work.
-:::
 
 ---
 

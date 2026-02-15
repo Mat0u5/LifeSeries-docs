@@ -1,12 +1,18 @@
 # Wild Life Trivia Config
 
-:::warning Config Files Only
-For now, Wild Life Trivia and trivia rewards can only be configured via the config files, and not the in-game GUI.
-:::
 
 ## Configuring Tasks
 
-Trivia can be customized in the config files:
+### Config GUI
+
+This is the recommended way to edit trivia questions.
+
+In the [Config](/config/overview), you can find the `Trivia` category under `Season Specific Settings`, where you can edit, add and remove trivia questions and answers.
+
+![img.png](/config_trivia.png)
+
+### Config Files
+If you prefer a normal text editor interface over the config GUI, trivia questions can also be changed in the following files, but make sure you follow the JSON syntax:
 - `config/lifeseries/wildlife/easy-trivia.json`
 - `config/lifeseries/wildlife/hard-trivia.json`
 - `config/lifeseries/wildlife/red-trivia.json`

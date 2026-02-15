@@ -30,7 +30,7 @@ features:
     
   - icon: 🎮
     title: All Seasons Included
-    details: Play Third Life, Last Life, Double Life, Limited Life, Secret Life, Wild Life, Past Life, and the april fools seasons - all in one mod.
+    details: Play Third Life, Last Life, Double Life, Limited Life, Secret Life, Wild Life, Past Life, Nice Life and the april fools seasons - all in one mod.
     link: /seasons/overview
     linkText: Season Overview
   
