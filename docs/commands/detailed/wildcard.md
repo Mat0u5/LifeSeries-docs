@@ -131,6 +131,21 @@ This command only works when you have the mod installed client-side.
 
 </div>
 
+<div class="command-block">
+
+### `/wildcard finale`
+
+Makes the wildcards act like they do in the finale (or during Callback). This resets once the session ends.
+
+```
+/wildcard finale
+
+```
+
+**Permissions:** Operator
+
+</div>
+
 
 ## Related Pages
 
@@ -152,6 +167,7 @@ This command only works when you have the mod installed client-side.
 | `/wildcard deactivate` | Operator            |
 | `/wildcard choose`     | Operator            |
 | `/wildcard effect`     | Operator            |
+| `/wildcard finale`     | Operator            |
 :::
 
 <style scoped>

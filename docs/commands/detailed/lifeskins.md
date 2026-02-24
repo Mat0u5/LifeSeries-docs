@@ -1,5 +1,9 @@
 # `/lifeskins` command
 
+:::danger NOTICE
+This command is disabled for now, it will be enabled once the life skins functionality is fully finished.
+:::
+
 <div class="command-block">
 
 ### `/lifeskins modify skin`
