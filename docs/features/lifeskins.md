@@ -1,7 +1,7 @@
 # Life Skins
 
 :::info Original Creator
-Life Skins were originally published by [Dianacraft](https://modrinth.com/mod/lifeskins) as an addon for the Life Series mod.
+Life Skins were originally published by [DianacraftGaming](https://modrinth.com/mod/lifeskins) as an addon for the Life Series mod.
 
 With permission, the functionality was implemented by me into the main mod.
 :::

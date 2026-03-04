@@ -4,15 +4,17 @@
 
 The Life Series was originally created by [Grian](https://www.youtube.com/@Grian).
 
-This mod uses sounds created by [Oli (TheOrionSound)](https://www.youtube.com/@TheOrionSound).
+Uses sounds created by [Oli (TheOrionSound)](https://www.youtube.com/@TheOrionSound).
 
-This mod recreates the Snail model ***(recreated by me, it is not the original model)*** - originally created by [Danny](https://www.youtube.com/@RowanArtifex)
+Recreates the Snail model ***(recreated by me, it is not the original model)*** - originally created by [Danny](https://www.youtube.com/@RowanArtifex)
 
-This mod recreates the Trivia Bot model ***(recreated by me, it is not the original model)*** - originally created by [Hoffen](https://x.com/_InkGhoul)
-
-This mod uses a modified version of this [Minimal Armor Resourcepack](https://modrinth.com/resourcepack/minimal-armor)
+Recreates the Trivia Bot model ***(recreated by me, it is not the original model)*** - originally created by [Hoffen](https://x.com/_InkGhoul)
 
 ## Community
+
+Uses a modified version of this [Minimal Armor Resourcepack](https://modrinth.com/resourcepack/minimal-armor)
+
+Recreates Life Skins, which were originally published by [DianacraftGaming](https://modrinth.com/mod/lifeskins) as an addon for the Life Series mod.
 
 Many of the features from this mod were suggested by the community. A complete list of contributions can be found in the `#leaderboards` channel of the [Life Series Mod Discord server](https://discord.gg/QWJxfb4zQZ).
 
