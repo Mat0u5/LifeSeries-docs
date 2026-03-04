@@ -1,8 +1,55 @@
 # `/lifeskins` command
 
-:::danger NOTICE
-This command is disabled for now, it will be enabled once the life skins functionality is fully finished.
+:::info Life Skins
+You can learn more about Life Skins [on this page](/features/lifeskins)
 :::
+
+## Life Skins Management
+
+<div class="command-block">
+
+### `/lifeskins reload`
+
+Reloads the skin files from the disk.
+
+```
+/lifeskins reload
+```
+
+**Permissions:** Operator
+
+</div>
+
+<div class="command-block">
+
+### `/lifeskins info`
+
+Shows a link to the wiki about the Life Skins.
+
+```
+/lifeskins info
+```
+
+**Permissions:** Operator
+
+</div>
+
+<div class="command-block">
+
+
+### `/lifeskins list`
+
+Shows a list of all loaded Life Skins.
+
+```
+/lifeskins list
+```
+
+**Permissions:** Operator
+
+</div>
+
+## Profile Modify Commands
 
 <div class="command-block">
 
@@ -75,6 +122,9 @@ It will NOT modify the display name above their head, nor their name in command 
 
 | Command                      | Permission Required |
 |------------------------------|---------------------|
+| `/lifeskins info`            | Operator            |
+| `/lifeskins reload`          | Operator            |
+| `/lifeskins list`            | Operator            |
 | `/lifeskins modify skin`     | Operator            |
 | `/lifeskins modify username` | Operator            |
 | `/lifeskins modify nickname` | Operator            |
