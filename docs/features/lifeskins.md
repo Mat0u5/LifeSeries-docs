@@ -40,6 +40,10 @@ For example, if I only add `4.png` and `2.png`, the following skin assignments w
 In Limited life, the number of lives will be in seconds, so if i want to add a skin for 16+ hours, it will be `57600.png`
 :::
 
+:::tip Slim Skins
+Adding `_slim` behind any skin file name will cause that skin to be loaded in its slim variant, for example `1_slim.png`.
+:::
+
 
 ## [Life Skins Command](/commands/detailed/lifeskins)
 
