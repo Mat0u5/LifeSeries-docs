@@ -43,7 +43,7 @@ You can only assign existing trivia (those in the files).
 Spawns the trivia bot for a player/s
 
 ```
-/trivia bot spawnFor <player/s>
+/trivia bot spawn <player/s>
 ```
 
 **Arguments:**

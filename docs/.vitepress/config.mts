@@ -42,7 +42,8 @@ export default defineConfig({
           { text: 'Enchantment Clamping', link: '/features/enchantment-clamping' },
           { text: 'Custom Recipes', link: '/features/custom-recipes' },
           { text: 'Boogeyman', link: '/features/boogeyman' },
-          { text: 'Secret Society', link: '/features/secret-society' }
+          { text: 'Secret Society', link: '/features/secret-society' },
+          { text: 'Life Skins', link: '/features/lifeskins' }
         ]
       },
       {

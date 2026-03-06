@@ -87,6 +87,14 @@ The Secret Society is a group of players that work together to kill players with
 Use the [`/society`](/commands/detailed/society) command to manage the Secret Society.
 :::
 
+## [Life Skins](/features/lifeskins)
+
+Life Skins are used to automatically change your skin appearance depending on how many lives you're on.
+
+:::tip
+Use the [`/lifeskins`](/commands/detailed/lifeskins) command to reload lifeskins, list loaded lifeskins, and more.
+:::
+
 ---
 
 ## Related Pages
@@ -101,3 +109,4 @@ Use the [`/society`](/commands/detailed/society) command to manage the Secret So
 - [Custom Recipes](/features/custom-recipes)
 - [Boogeyman](/features/boogeyman)
 - [Secret Society](/features/secret-society)
+- [Life Skins](/features/lifeskins)

@@ -11,7 +11,7 @@ The main twist of Limited Life is that the lives system is replaced with a time-
 ## The Boogeyman
 In Limited Life, the [Boogeyman](/features/boogeyman) rules are slightly modified compared to other seasons:
 - There is only one Boogeyman per session.
-- Once there are no more Green and Yellow players, Red players can also become the boogeyman, and they get cured by killing other Reds.
+- Red players can also become the boogeyman, and they get cured by killing other non-reds. If there are only reds remaining, they can be cured by killing other reds.
 
 ## Time
 

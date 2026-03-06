@@ -145,6 +145,68 @@ Use this after adding / editing snail texture files to apply them without restar
 
 </div>
 
+
+---
+
+## Snail Control
+
+<div class="command-block">
+
+### `/snail control spawn`
+
+Allows you to spawn snails for players even when the Snails wildcard is not active.
+
+```
+/snail control spawn <player/s>
+```
+
+**Arguments:**
+- `<player/s>` - Target player or players
+
+**Permissions:** Operator
+
+</div>
+
+<div class="command-block">
+
+### `/snail control despawn`
+
+Allows you to despawn snails for players even when the Snails wildcard is not active.
+
+```
+/snail control despawn <player/s>
+```
+
+**Arguments:**
+- `<player/s>` - Target player or players
+
+**Permissions:** Operator
+
+:::danger Snails Wildcard
+When the snails wildcard is active, the snails will automatically respawn again. To stop this, you can simply use the next command, `/snail control prevent`
+:::
+
+</div>
+
+
+<div class="command-block">
+
+### `/snail control prevent`
+
+Prevents snails spawning for specific players.
+
+```
+/snail control prevent <player/s>
+```
+
+**Arguments:**
+- `<player/s>` - Target player or players
+
+**Permissions:** Operator
+
+</div>
+
+
 ---
 
 ## Related Pages

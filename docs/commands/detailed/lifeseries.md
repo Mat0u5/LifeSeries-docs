@@ -140,7 +140,11 @@ Opens the mod's config GUI.
 
 ```
 /lifeseries config
+/lifeseries config set <key> <value>
 ```
+
+**Arguments:**
+- `set <key> <value>` - This modifies the config via commands, does not require the mod client side.
 
 **Requirements:** Life Series mod client-side
 
