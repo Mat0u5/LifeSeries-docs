@@ -14,7 +14,12 @@ Reloads the skin files from the disk.
 
 ```
 /lifeskins reload
+/lifeskins reload <player/s>
 ```
+
+**Arguments:**
+- *none* - Targets all players
+- `<player/s>` - The player/s you want to reload the skin of.
 
 **Permissions:** Operator
 
