@@ -191,12 +191,12 @@ When the snails wildcard is active, the snails will automatically respawn again.
 
 <div class="command-block">
 
-### `/snail control prevent`
+### `/snail control toggle`
 
-Prevents snails spawning for specific players.
+Toggles snails spawning for specific players.
 
 ```
-/snail control prevent <player/s>
+/snail control toggle <player/s>
 ```
 
 **Arguments:**
