@@ -23,6 +23,9 @@ You can also add skins for zero lives and unassigned lives, `0.png` and `null.pn
 :::
 
 :::tip
+
+## THIS IS CURRENTLY BROKEN IN 1.5.2
+
 You don't have to add skins for all life counts, the mod will automatically choose the skin with the closest number of lives that is less, or equal to the number of lives the player has.
 
 If the mod cannot assign a skin file to you, it will revert to your original skin
