@@ -147,13 +147,20 @@ Resets a player's superpowers.
 
 <div class="command-block">
 
-### `/superpower skipCooldown`
+### `/superpower cooldown`
 
-Skips your superpower cooldown, allowing immediate use.
+Allows you to get or set the superpower cooldown of any player.
 
 ```
-/superpower skipCooldown
+/superpower cooldown <player/s> set <amount>
+/superpower cooldown <player/s> reset
+/superpower cooldown <player/s> get
 ```
+**Arguments:**
+- `<player/s>` - Target player or players
+- `set <amount>` - Sets the power cooldown to `<amount>` seconds
+- `reset` - Sets the power cooldown to the default value (as if it was used)
+- `set` - Shows you the power cooldown of the target/s
 
 **Permissions:** Operator
 
