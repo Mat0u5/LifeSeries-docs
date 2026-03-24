@@ -8,6 +8,11 @@ With permission, the functionality was implemented by me into the main mod.
 
 Life Skins add a way to automatically change your skin based on the number of lives you're on, without having to relog or relaunch the game.
 
+:::warn Client Side Required
+Life Skins requires the mod to be installed client-side.
+Players without the mod will see the normal players' skins.
+:::
+
 ## File Structure
 
 All Life Skins are stored in the `config/lifeseries/lifeskins/` folder.
@@ -43,6 +48,12 @@ In Limited life, the number of lives will be in seconds, so if i want to add a s
 
 :::tip Slim Skins
 Adding `_slim` behind any skin file name will cause that skin to be loaded in its slim variant, for example `1_slim.png`.
+:::
+
+:::tip Team-based skins
+If you want to add skins for specific teams, and not life counts, you can do so by naming the file the team name.
+
+For example, `watcher.png`, `watcher_slim.png`, `lives_5.png`
 :::
 
 
