@@ -184,7 +184,7 @@ Only use this if you notice visual inconsistencies.
 
 <div class="command-block">
 
-### `/lives rollLives` (Last Life Only)
+### `/lives rollLives`
 
 Randomly assigns lives to players based on the config.
 
@@ -195,8 +195,6 @@ Randomly assigns lives to players based on the config.
 
 **Arguments:**
 - `<player/s>` - Optional: Roll lives only for a specific player or players
-
-**Availability:** Last Life only
 
 **Permissions:** Operator
 
