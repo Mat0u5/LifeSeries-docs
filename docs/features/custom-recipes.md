@@ -9,9 +9,6 @@ The Life Series has a couple of custom recipes:
 *The default TNT recipe is still available.*
 ![recipe_tnt.png](/recipe_tnt.png)
 
-### Name Tag Recipe
-![recipe_nametag.png](/recipe_nametag.png)
-
 ### Spawner Recipe
 Disabled by default in most seasons
 ![recipe_spawner.png](/recipe_spawner.png)
@@ -23,6 +20,10 @@ Only available in 1.20-1.21.3, since after that, bundles are craftable in vanill
 ### Saddle Recipe
 Only available in 1.20-1.21.5, since after that, saddles are craftable in vanilla Minecraft with the same recipe.
 ![recipe_saddle.png](/recipe_saddle.png)
+
+### Name Tag Recipe
+Only available in 1.20-1.21.11, since after that, name tags are craftable in vanilla Minecraft with the same recipe.
+![recipe_nametag.png](/recipe_nametag.png)
 
 ## Customizability
 
