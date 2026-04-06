@@ -16,6 +16,8 @@ Uses a modified version of this [Minimal Armor Resourcepack](https://modrinth.co
 
 Recreates Life Skins, which were originally published by [DianacraftGaming](https://modrinth.com/mod/lifeskins) as an addon for the Life Series mod.
 
+Uses some sounds for Secret and Past Life stitched together by [TheCatKing](https://modrinth.com/user/TheCatKing01).
+
 Many of the features from this mod were suggested by the community. A complete list of contributions can be found in the `#leaderboards` channel of the [Life Series Mod Discord server](https://discord.gg/QWJxfb4zQZ).
 
 ::: tip Join the Community
