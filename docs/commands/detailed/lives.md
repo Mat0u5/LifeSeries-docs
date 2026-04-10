@@ -97,12 +97,13 @@ Adds lives to a player.
 Removes lives from a player.
 
 ```
-/lives remove <player/s> [amount]
+/lives remove <player/s> [amount] [advancedDeath]
 ```
 
 **Arguments:**
 - `<player/s>` - Target player or players
 - `[amount]` - Number of lives to remove. If not specified, defaults to `1`.
+- `[advancedDeath]` - If present, uses the advanced deaths system.
 
 **Permissions:** Operator
 
