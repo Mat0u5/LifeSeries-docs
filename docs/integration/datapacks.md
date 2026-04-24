@@ -138,6 +138,7 @@ The `Session` scoreboard has the following scores:
 - Length: Session length (in ticks)
 - PassedTime: Passed session time (in ticks)
 - Status: Session status (see below)
+- Season: Current Season (see below)
 
 | Session Status | Score |
 |----------------|-------|
@@ -146,6 +147,20 @@ The `Session` scoreboard has the following scores:
 | STARTED        | 2     |
 | PAUSED         | 3     |
 | FINISHED       | 4     |
+
+| Current Season | Score |
+|----------------|-------|
+| SIMPLE_LIFE    | -2    |
+| REAL_LIFE      | -1    |
+| UNASSIGNED     | 0     |
+| THIRD_LIFE     | 1     |
+| LAST_LIFE      | 2     |
+| DOUBLE_LIFE    | 3     |
+| LIMITED_LIFE   | 4     |
+| SECRET_LIFE    | 5     |
+| WILD_LIFE      | 6     |
+| PAST_LIFE      | 7     |
+| NICE_LIFE      | 8     |
 
 ### Nice List
 

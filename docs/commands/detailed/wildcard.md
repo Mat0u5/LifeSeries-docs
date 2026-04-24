@@ -119,12 +119,14 @@ This command only works when you have the mod installed client-side.
 
 ```
 /wildcard effect dots
+/wildcard effect activate
 /wildcard effect makeItWild
 
 ```
 
 **Arguments:**
 - `dots` - Shows the three dots to everyone that normally only show up when a wildcard is activated.
+- `activate` - Shows the three dots and the wildcard activated title to everyone.
 - `makeItWild` - Shows the "Make It WILD" title to everyone that normally only shows up when callback ends.
 
 **Permissions:** Operator
