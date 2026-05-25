@@ -13,7 +13,7 @@ The Life Series Mod includes complete recreations of all official seasons, each 
 | [Secret Life](/seasons/secret-life)   | Completed | Task system, 30 non-regenerating hearts |
 | [Wild Life](/seasons/wild-life)       | Completed | 8 different Wildcards                   |
 | [Past Life](/seasons/past-life)       | Completed | Secret society                          |
-| [Nice Life](/seasons/nice-life)       | Completer | Santa bot, Nice/Naughty list            |
+| [Nice Life](/seasons/nice-life)       | Completed | Santa bot, Nice/Naughty list            |
 |                                       |           |                                         |
 | [Real Life](/seasons/past-life)       | Completed | April fools - Played in VR              |
 | [Simple Life](/seasons/past-life)     | Completed | April fools - Superflat world           | 
