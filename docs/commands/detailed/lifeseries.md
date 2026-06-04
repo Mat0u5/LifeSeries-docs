@@ -47,7 +47,7 @@ Sets the current Life Series season using a command.
 **Arguments:**
 - `<series>` - The season to select (see table below)
 - `confirm` - Optional flag to override existing series selection
-- `[<args>]` - Optional arguments - one of `-noGui`, `-noChatFeedback`, `-keepLives`, `-keepSession`.
+- `[<args>]` - Optional arguments from the following list: `-noGui`, `-noChatFeedback`, `-keepLives`, `-keepSession`.
 
 **Available Series:**
 
