@@ -41,11 +41,13 @@ Sets the current Life Series season using a command.
 ```
 /lifeseries setSeries <series>
 /lifeseries setSeries <series> confirm
+/lifeseries setSeries <series> confirm [<args>]
 ```
 
 **Arguments:**
 - `<series>` - The season to select (see table below)
 - `confirm` - Optional flag to override existing series selection
+- `[<args>]` - Optional arguments - one of `-noGui`, `-noChatFeedback`, `-keepLives`, `-keepSession`.
 
 **Available Series:**
 
