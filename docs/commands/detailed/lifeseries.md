@@ -144,15 +144,17 @@ Opens the mod's config GUI.
 /lifeseries config
 /lifeseries config set <key> <value>
 /lifeseries config setEvent <key> <canceled> <value>
+/lifeseries config get <key>
 ```
 
 **Arguments:**
 - `set <key> <value>` - This modifies the config via commands, does not require the mod client side.
 - `setEvent <key> <canceled> <value>` - This modifies the config **events* via commands, does not require the mod client side.
+- `get <key>` - Shows you the value of a key. In case of an integer value, the command return value is set to match.
 
 **Requirements:** Life Series mod client-side
 
-**Permissions:** None required
+**Permissions:** None required for the default, Operator for the set/get variants.
 
 ::: info Permissions
 Even though anyone can use this command, those **without operator permissions** will only be able to modify the client-side config, meaning that they will not be able to alter gameplay in any way.<br>
@@ -164,7 +166,7 @@ This command only works when you have the mod installed client-side.
 :::
 
 ::: tip Manual Editing Config
-You can also edit config files directly in `config/lifeseries/`
+You can also edit config files directly in `config/lifeseries/` in the running directory.
 :::
 
 </div>
