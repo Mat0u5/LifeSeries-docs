@@ -81,6 +81,36 @@ Only works if the target's current task is an Easy task.
 
 </div>
 
+
+<div class="command-block">
+
+### `/task resetUsed`
+
+Resets the stored used tasks, allowing for them all to be picked with an equal chance.
+Should be run before the first session if testing was done prior (which would have marked some of the tasks as used).
+
+```
+/task resetUsed
+```
+
+**Permissions:** Operator
+
+</div>
+
+<div class="command-block">
+
+### `/task changeLocations`
+
+Resets the stored button positions.
+
+```
+/task changeLocations
+```
+
+**Permissions:** Operator
+
+</div>
+
 ---
 
 ## Information Commands
@@ -196,15 +226,17 @@ See [Secret Life Tasks Config](/config/secret-life-tasks)
 
 ::: details Command Permissions Summary
 
-| Command           | Permission Required |
-|-------------------|---------------------|
-| `/task randomize` | Operator            |
-| `/task set`       | Operator            |
-| `/task succeed`   | Operator            |
-| `/task fail`      | Operator            |
-| `/task reroll`    | Operator            |
-| `/task get`       | Operator            |
-| `/task clear`     | Operator            |
+| Command                 | Permission Required |
+|-------------------------|---------------------|
+| `/task randomize`       | Operator            |
+| `/task set`             | Operator            |
+| `/task succeed`         | Operator            |
+| `/task fail`            | Operator            |
+| `/task reroll`          | Operator            |
+| `/task get`             | Operator            |
+| `/task clear`           | Operator            |
+| `/task resetUsed`       | Operator            |
+| `/task changeLocations` | Operator            |
 :::
 
 <style scoped>

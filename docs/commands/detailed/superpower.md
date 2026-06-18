@@ -124,6 +124,23 @@ This doesn't immediately assign the power - it queues it for the next time `/sup
 
 </div>
 
+<div class="command-block">
+
+### `/superpower trigger`
+
+Simulates players pressing their superpower keybind.
+
+```
+/superpower trigger <player/s>
+```
+
+**Arguments:**
+- `<player/s>` - Target player or players
+
+**Permissions:** Operator
+
+</div>
+
 ---
 
 ## Resetting Superpowers
@@ -190,6 +207,7 @@ Useful for testing superpowers.
 | `/superpower assignForRandomization` | Operator            |
 | `/superpower reset`                  | Operator            |
 | `/superpower skipCooldown`           | Operator            |
+| `/superpower trigger`                | Operator            |
 :::
 
 <style scoped>
