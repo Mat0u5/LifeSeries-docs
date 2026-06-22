@@ -32,6 +32,28 @@ Hard Tasks - If you succeed, you gain 20 hearts. If you fail, you lose 10 hearts
 
 Red Tasks - Given to red players, these tasks involve hurting or killing other players. If you complete this task, you gain 5 hearts. If you fail, you lose 2.5 hearts. Once you complete / fail a Red task, you will be given a new one - so Red players always have a task to do. If a Red player kills another player, they are automatically awarded +10 hearts, and these, similarly to gifted hearts, can bypass the 30 max heart limit.
 
+### Task Selection
+
+Understanding how tasks are selected is crucial for an admin running the series.
+
+Any time a task is assigned, it is stored at the end of a file that contains a list of all used tasks, to prevent it being chosen again.
+If no unused tasks remain, the first half of the used tasks file is reset, allowing you to get them again.
+
+This can potentially cause issues if you have a low number of created tasks, or if you were testing tasks before the session.
+
+:::info Example Issues
+Let's say you have 20 created tasks.
+Before the session, you decide that you want to test things out with 5 players (thus five tasks are added to the used tasks file).
+
+-> You have 15 unused tasks.
+
+Therefore, during the session itself, if more than 15 players join, you could **potentially get a duplicate task.**
+:::
+
+To fix this, you can run `/task resetUsed`, which resets all used tasks. This of course resets any info from which tasks were used in previous sessions as well, so it has to be used carefully.
+
+To view which tasks are marked as used, if any, you can check the Task Manager in the [Config](/config/overview). Used tasks will have a [USED] marker next to them.
+
 ## Lives
 All players are given 3 lives at the beginning of the first session.
 
