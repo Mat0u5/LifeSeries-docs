@@ -103,6 +103,7 @@ Shows a list of uploaded snail textures.
 
 ```
 /snail textures list
+/snail textures list all - shows built-in textures as well
 ```
 
 **Permissions:** Operator
