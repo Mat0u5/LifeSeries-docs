@@ -21,7 +21,7 @@ Shows all active player substitutions.
 /subin list
 ```
 
-**Permissions:** Operator
+**Permissions:** None required
 
 </div>
 
@@ -94,7 +94,7 @@ Removing a substitution restores the original player's data.
 
 | Command                        | Permission Required |
 |--------------------------------|---------------------|
-| `/subin list`                  | Operator            |
+| `/subin list`                  | None                |
 | `/subin add`                   | Operator            |
 | `/subin remove`                | Operator            |
 :::
