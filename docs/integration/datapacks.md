@@ -162,6 +162,17 @@ The `Session` scoreboard has the following scores:
 | PAST_LIFE      | 7     |
 | NICE_LIFE      | 8     |
 
+### Limited Life Time Values
+
+The `LimitedLife` scoreboard has the following scores (values correspond to time, in seconds):
+- TimeBoundaryDefault: The default time 
+- TimeBoundaryYellow: Yellow-Green boundary
+- TimeBoundaryRed: Red-Yellow boundary
+- TimeKill: Time you gain for killing someone as a red
+- TimeDeath: Time you lose for dying
+- TimeBoogeymanKill: Time you gain for killing someone as a boogeyman
+- TimeBoogeymanDeath: Time you lose for dying from the boogeyman
+
 ### Nice List
 
 All Nice List members are given the `nice_list` tag.
