@@ -42,6 +42,20 @@ Used for skipping the night manually and waking everyone up if something goes wr
 
 </div>
 
+<div class="command-block">
+
+### `/nicelife forceSleep`
+
+Forces the trivia bots to spawn even if some players are not sleeping yet.
+
+```
+/nicelife forceSleep
+```
+
+**Permissions:** Operator
+
+</div>
+
 
 ## Related Pages
 
