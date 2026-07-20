@@ -20,7 +20,11 @@ Starts the session timer.
 
 ```
 /session start
+/session start finale
 ```
+
+**Arguments:**
+- `finale` - Makes the final session infinite and turns on any finale-only things.
 
 **Requirements:** A timer must be set using `/session timer set` before starting
 
