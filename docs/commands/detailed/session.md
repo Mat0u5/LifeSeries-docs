@@ -109,10 +109,12 @@ Sets the session duration to a specific time.
 
 ```
 /session timer set <time>
+/session timer set infinite
 ```
 
 **Arguments:**
 - `<time>` - Duration in hours, minutes, and/or seconds format
+- `infinite` - Makes the session infinite, however this may cause some issues with specific time related features.
 
 ::: info Time Format Examples
 - `30m` - 30 minutes
