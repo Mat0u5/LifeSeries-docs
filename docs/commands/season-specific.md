@@ -13,6 +13,7 @@ Commands that are available in specific seasons.
 - [`/superpower`](/commands/detailed/superpower)
 - [`/snail`](/commands/detailed/snail)
 - [`/hunger`](/commands/detailed/hunger)
+- [`/zombie`](/commands/detailed/zombie)
 - [`/trivia`](/commands/detailed/trivia-wildlife)
 ### Nice Life:
 - [`/vote`](/commands/detailed/vote)

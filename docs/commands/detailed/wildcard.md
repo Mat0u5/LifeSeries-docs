@@ -156,6 +156,7 @@ Makes the wildcards act like they do in the finale (or during Callback). This re
 - [Superpower Command](/commands/detailed/superpower) - Managing superpowers wildcard
 - [Snail Command](/commands/detailed/snail) - Managing snails wildcard
 - [Hunger Command](/commands/detailed/hunger) - Managing hunger wildcard
+- [Zombie Command](/commands/detailed/zombie) - Manually adding zombies
 - [Wild Life Guide](/seasons/wild-life) - Full Wild Life mechanics
 - [Config Overview](/config/overview) - Configure wildcard settings
 
