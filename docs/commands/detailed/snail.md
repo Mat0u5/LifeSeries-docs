@@ -159,6 +159,7 @@ This will only work if the player does **not** have their own custom snail skin.
 /snail textures preset set <player/s> <skin> - Chooses a specific skin
 /snail textures preset randomize <player/s> - Chooses a random built-in skin
 /snail textures preset reset <player/s> - Reverts to the default snail skin
+/snail textures preset info - Opens this page
 ```
 
 **Permissions:** Operator
@@ -259,15 +260,13 @@ Toggles snails spawning for specific players.
 
 ::: details Command Permissions Summary
 
-| Command                  | Permission Required |
-|--------------------------|---------------------|
-| `/snail names get`       | None                |
-| `/snail names request`   | None                |
-| `/snail names set`       | Operator            |
-| `/snail names reset`     | Operator            |
-| `/snail textures list`   | Operator            |
-| `/snail textures info`   | Operator            |
-| `/snail textures reload` | Operator            |
+| Command                | Permission Required |
+|------------------------|---------------------|
+| `/snail names get`     | None                |
+| `/snail names request` | None                |
+| `/snail names set`     | Operator            |
+| `/snail names reset`   | Operator            |
+| `/snail textures *`    | Operator            |
 :::
 
 <style scoped>
