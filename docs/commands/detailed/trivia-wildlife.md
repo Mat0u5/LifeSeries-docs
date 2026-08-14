@@ -72,6 +72,59 @@ Sets / clears the trivia punishment for players.
 
 </div>
 
+---
+
+## Trivia Textures
+
+<div class="command-block">
+
+### `/trivia textures list`
+
+Shows a list of uploaded trivia textures.
+
+```
+/trivia textures list
+```
+
+**Permissions:** Operator
+
+</div>
+
+<div class="command-block">
+
+### `/trivia textures info`
+
+Shows information on how to create and add trivia textures.
+
+```
+/trivia textures info
+```
+
+**Permissions:** Operator
+
+::: tip Custom Textures
+This command provides instructions for creating custom trivia skins to personalize each player's trivia bot.
+:::
+
+</div>
+
+<div class="command-block">
+
+### `/trivia textures reload`
+
+Reloads the trivia bot textures from the config files.
+
+```
+/trivia textures reload
+```
+
+**Permissions:** Operator
+
+::: info When to Use
+Use this after adding / editing trivia texture files to apply them without restarting the server.
+:::
+
+</div>
 
 ---
 
@@ -99,6 +152,7 @@ You can add custom trivia questions, read more in [Wild Life Trivia](/config/wil
 | `/trivia assign`     | Operator            |
 | `/trivia bot`        | Operator            |
 | `/trivia punishment` | Operator            |
+| `/trivia texture`    | Operator            |
 :::
 
 <style scoped>

@@ -120,6 +120,7 @@ This command only works when you have the mod installed client-side.
 ```
 /wildcard effect dots
 /wildcard effect activate
+/wildcard effect activate all
 /wildcard effect makeItWild
 
 ```
@@ -127,6 +128,7 @@ This command only works when you have the mod installed client-side.
 **Arguments:**
 - `dots` - Shows the three dots to everyone that normally only show up when a wildcard is activated.
 - `activate` - Shows the three dots and the wildcard activated title to everyone.
+- `activate all` - Shows the three dots and the all wildcard are active rainbow title to everyone.
 - `makeItWild` - Shows the "Make It WILD" title to everyone that normally only shows up when callback ends.
 
 **Permissions:** Operator
@@ -154,6 +156,7 @@ Makes the wildcards act like they do in the finale (or during Callback). This re
 - [Superpower Command](/commands/detailed/superpower) - Managing superpowers wildcard
 - [Snail Command](/commands/detailed/snail) - Managing snails wildcard
 - [Hunger Command](/commands/detailed/hunger) - Managing hunger wildcard
+- [Zombie Command](/commands/detailed/zombie) - Manually adding zombies
 - [Wild Life Guide](/seasons/wild-life) - Full Wild Life mechanics
 - [Config Overview](/config/overview) - Configure wildcard settings
 

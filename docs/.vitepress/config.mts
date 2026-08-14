@@ -115,6 +115,7 @@ export default defineConfig({
           { text: '/snail', link: '/commands/detailed/snail' },
           { text: '/hunger', link: '/commands/detailed/hunger' },
           { text: '/trivia (wildlife)', link: '/commands/detailed/trivia-wildlife' },
+          { text: '/zombie', link: '/commands/detailed/zombie' },
           { text: '/nicelife', link: '/commands/detailed/nicelife' },
           { text: '/trivia (nicelife)', link: '/commands/detailed/trivia-nicelife' },
           { text: '/vote', link: '/commands/detailed/vote' },

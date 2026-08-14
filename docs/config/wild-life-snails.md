@@ -11,9 +11,6 @@ More info can be found on the [/snail command](/commands/detailed/snail) page.
 To create your custom snail textures, you must first open the snail model (found in `./config/lifeseries/wildlife/snailskins/snail.bbmodel`) in [Blockbench](https://www.blockbench.net).
 ![img_1.png](/snailskins_1.png)
 
-After that, you should hide the parachute and propeller layers, as they just get in the way and are usually not visible anyway.
-![img_2.png](/snailskins_2.png)
-
 Then, in the paint tab, change the snail skin however you want.
 ![img_3.png](/snailskins_3.png)
 

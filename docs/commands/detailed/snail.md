@@ -103,6 +103,7 @@ Shows a list of uploaded snail textures.
 
 ```
 /snail textures list
+/snail textures list all - shows built-in textures as well
 ```
 
 **Permissions:** Operator
@@ -141,6 +142,47 @@ Reloads the snail textures from the config files.
 
 ::: info When to Use
 Use this after adding / editing snail texture files to apply them without restarting the server.
+:::
+
+</div>
+
+
+<div class="command-block">
+
+### `/snail textures preset`
+
+Allows you to set a player's snail skins to one of the built-in original youtuber snail skin presets.
+
+This will only work if the player does **not** have their own custom snail skin.
+
+```
+/snail textures preset set <player/s> <skin> - Chooses a specific skin
+/snail textures preset randomize <player/s> - Chooses a random built-in skin
+/snail textures preset reset <player/s> - Reverts to the default snail skin
+/snail textures preset info - Opens this page
+```
+
+**Permissions:** Operator
+
+:::tip Available Preset Skins
+`BdoubleO100`,
+`Bigbst4tz2`,
+`Etho`,
+`GeminiTay`,
+`GoodTimeWithScar`,
+`Grian`,
+`impulseSV`,
+`InTheLittleWood`,
+`LDShadowLady`,
+`Mumbo`,
+`PearlescentMoon`,
+`Renthedog`,
+`Skizzleman`,
+`Smajor1995`,
+`Smallishbeans`,
+`SolidarityGaming`,
+`TangoTek`,
+`ZombieCleo`
 :::
 
 </div>
@@ -218,15 +260,13 @@ Toggles snails spawning for specific players.
 
 ::: details Command Permissions Summary
 
-| Command                  | Permission Required |
-|--------------------------|---------------------|
-| `/snail names get`       | None                |
-| `/snail names request`   | None                |
-| `/snail names set`       | Operator            |
-| `/snail names reset`     | Operator            |
-| `/snail textures list`   | Operator            |
-| `/snail textures info`   | Operator            |
-| `/snail textures reload` | Operator            |
+| Command                | Permission Required |
+|------------------------|---------------------|
+| `/snail names get`     | None                |
+| `/snail names request` | None                |
+| `/snail names set`     | Operator            |
+| `/snail names reset`   | Operator            |
+| `/snail textures *`    | Operator            |
 :::
 
 <style scoped>

@@ -38,6 +38,29 @@ I recommend using a loot table editor, such as the [Misode Loot Table Generator]
 Make sure you follow the existing syntax of the JSON files, or it will not work.
 :::
 
+
+---
+
+## Trivia Skins
+
+To create your custom trivia bot textures, you must first open the trivia bot model (found in `./config/lifeseries/wildlife/triviaskins/trivia.bbmodel`) in [Blockbench](https://www.blockbench.net).
+![img_1.png](/triviaskins_1.png)
+
+Then, in the paint tab, change the trivia bot skin however you want.
+![img_2.png](/triviaskins_2.png)
+
+Then, after you paint the skin however you wish, you need to save the skin.
+![img_3.png](/triviaskins_3.png)
+
+Change the skin file name to the username of the player it belongs to.
+Then, put it in the trivia skins config folder (`./config/lifeseries/wildlife/triviaskins/`) on the server.
+
+:::info Example
+So for example, since my minecraft username is Mat0u5, the file would be located at `./config/lifeseries/wildlife/triviaskins/Mat0u5.png`
+:::
+
+Then, run `/trivia textures reload`, and it should be added.
+
 ## Related Pages
 
 - [Config Overview](/config/overview) - All available settings.
