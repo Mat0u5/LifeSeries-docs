@@ -101,6 +101,21 @@ Automatically pauses and unpauses the session timer at specific times.
 
 </div>
 
+
+<div class="command-block">
+
+### `/session actions`
+
+Shows you the current queued session actions and allows you to remove them.
+
+```
+/session actions
+```
+
+**Permissions:** Operator
+
+</div>
+
 ---
 
 ## Timer Management Commands
