@@ -114,6 +114,7 @@ export default defineConfig({
           { text: '/superpower', link: '/commands/detailed/superpower' },
           { text: '/snail', link: '/commands/detailed/snail' },
           { text: '/hunger', link: '/commands/detailed/hunger' },
+          { text: '/mobswap', link: '/commands/detailed/mobswap' },
           { text: '/trivia (wildlife)', link: '/commands/detailed/trivia-wildlife' },
           { text: '/zombie', link: '/commands/detailed/zombie' },
           { text: '/nicelife', link: '/commands/detailed/nicelife' },
