@@ -213,6 +213,26 @@ See [Secret Life Tasks Config](/config/secret-life-tasks)
 
 </div>
 
+<div class="command-block">
+
+### `/task append`
+
+Appends additional text to players' tasks.
+
+If they have the task in their inventory, it is appended instantly, otherwise it is queued for the next task roll.
+
+```
+/task append <player/s> <string>
+```
+
+**Arguments:**
+- `<player/s>` - Target player or players
+- `<string>` - The text you want to append to everyone's task.
+
+**Permissions:** Operator
+
+</div>
+
 ---
 
 ## Related Pages
@@ -237,6 +257,7 @@ See [Secret Life Tasks Config](/config/secret-life-tasks)
 | `/task clear`           | Operator            |
 | `/task resetUsed`       | Operator            |
 | `/task changeLocations` | Operator            |
+| `/task append`          | Operator            |
 :::
 
 <style scoped>
