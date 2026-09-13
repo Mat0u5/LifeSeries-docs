@@ -25,6 +25,18 @@ Only available in 1.20-1.21.5, since after that, saddles are craftable in vanill
 Only available in 1.20-1.21.11, since after that, name tags are craftable in vanilla Minecraft with the same recipe.
 ![recipe_nametag.png](/recipe_nametag.png)
 
+### Moss Block Recipe
+Only available in Last Life.
+![recipe_mossblock.png](/recipe_mossblock.png)
+
+### Spore Blossom Recipe
+Only available in Last Life.
+![recipe_sporeblossom.png](/recipe_sporeblossom.png)
+
+### Magma Cream Recipe
+Only available in Limited Life.
+![recipe_magmacream.png](/recipe_magmacream.png)
+
 ## Customizability
 
 For now, most custom recipes cannot be turned off, with the exception of the spawner recipe.
