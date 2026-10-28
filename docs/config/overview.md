@@ -22,7 +22,7 @@ Some more complex features are not **yet** available in the GUI form, so for tho
 
 ### Via the config files:
 
-The config files are located in the `config/lifeseires/*` folder of your minecraft or server directory.
+The config files are located in the `config/lifeseries/*` folder of your minecraft or server directory.
 
 ## Reloading
 :::tip Reloading

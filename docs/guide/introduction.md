@@ -22,7 +22,9 @@ There are over 100 customizable features, including default lives, boogeyman in 
 Read more about customizability in the [Config Overview](/config/overview)
 
 ## Requirements
-There are no other mod dependencies (not even Fabric API) - although [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat) is recommended.
+The [MatLib](https://modrinth.com/mod/matlib) library is a required dependency.
+
+[Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat) is recommended for social interactions.
 
 The mod is server-side required and optional client-side.
 

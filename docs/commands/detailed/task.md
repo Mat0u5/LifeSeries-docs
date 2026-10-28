@@ -233,6 +233,28 @@ If they have the task in their inventory, it is appended instantly, otherwise it
 
 </div>
 
+<div class="command-block">
+
+### `/task guess`
+
+Allows you to guess other players' tasks.
+
+```
+/task guess <player> <string>
+```
+
+**Arguments:**
+- `<player>` - Target player
+- `<string>` - The task you think they have
+
+**Permissions:** None
+
+::: info Configurable
+The feature needs to be turned on in the [config](/config/overview).
+:::
+
+</div>
+
 ---
 
 ## Related Pages
@@ -258,6 +280,7 @@ If they have the task in their inventory, it is appended instantly, otherwise it
 | `/task resetUsed`       | Operator            |
 | `/task changeLocations` | Operator            |
 | `/task append`          | Operator            |
+| `/task guess`           | None                |
 :::
 
 <style scoped>
