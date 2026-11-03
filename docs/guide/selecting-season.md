@@ -24,6 +24,7 @@ If you do not have the mod client-side, you have to use the `/lifeseries setSeri
 | Wild Life                 | `wildlife`    |
 | Past Life                 | `pastlife`    |
 | Nice Life                 | `nicelife`    |
+| Final Life                | `finallife`   |
 | Real Life  (April Fools)  | `reallife`    |
 | Simple Life (April Fools) | `simplelife`  |
 

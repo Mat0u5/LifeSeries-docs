@@ -61,6 +61,7 @@ Sets the current Life Series season using a command.
 | Wild Life                 | `wildlife`    |
 | Past Life                 | `pastlife`    |
 | Nice Life                 | `nicelife`    |
+| Final Life                | `finallife`   |
 | Real Life  (April Fools)  | `reallife`    |
 | Simple Life (April Fools) | `simplelife`  |
 
