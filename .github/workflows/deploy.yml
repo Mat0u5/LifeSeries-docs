@@ -2,7 +2,8 @@ name: Deploy VitePress site to Pages
 
 on:
   push:
-    branches: [main, dev]
+    branches: ['**']
+  delete:
   workflow_dispatch:
 
 permissions:
@@ -16,80 +17,79 @@ concurrency:
 
 jobs:
   build:
+    if: github.event_name != 'delete' || github.event.ref_type == 'branch'
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main branch
+      - name: Checkout repository (all branches)
         uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
-          path: main
-
-      - name: Check if dev branch exists
-        id: check_dev
-        working-directory: ./main
-        run: |
-          if git ls-remote --heads origin dev | grep -q dev; then
-            echo "exists=true" >> $GITHUB_OUTPUT
-          else
-            echo "exists=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Checkout dev branch
-        if: steps.check_dev.outputs.exists == 'true'
-        uses: actions/checkout@v4
-        with:
-          ref: dev
-          fetch-depth: 0
-          path: dev
+          path: repo
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: main/package-lock.json
+          cache-dependency-path: repo/package-lock.json
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      # Build main branch
-      - name: Install dependencies (main)
-        working-directory: ./main
-        run: npm ci
-
       - name: Build main branch
-        working-directory: ./main
-        run: npm run docs:build
-
-      - name: Install dependencies (dev)
-        if: steps.check_dev.outputs.exists == 'true'
-        working-directory: ./dev
-        run: npm ci
-
-      - name: Update VitePress config for dev branch
-        if: steps.check_dev.outputs.exists == 'true'
-        working-directory: ./dev
+        working-directory: ./repo
         run: |
-          # Update the base path in config
-          sed -i "s|base: '/LifeSeries-docs/'|base: '/LifeSeries-docs/dev/'|g" docs/.vitepress/config.js || \
-          sed -i "s|base: '/LifeSeries-docs/'|base: '/LifeSeries-docs/dev/'|g" docs/.vitepress/config.ts || \
-          sed -i "s|base: '/LifeSeries-docs/'|base: '/LifeSeries-docs/dev/'|g" docs/.vitepress/config.mjs || \
-          sed -i "s|base: '/LifeSeries-docs/'|base: '/LifeSeries-docs/dev/'|g" docs/.vitepress/config.mts
+          npm ci
+          npm run docs:build
+          mkdir -p ../combined
+          cp -r docs/.vitepress/dist/. ../combined/
 
-      - name: Build dev branch
-        if: steps.check_dev.outputs.exists == 'true'
-        working-directory: ./dev
-        run: npm run docs:build
-
-      # Combine both builds
-      - name: Combine builds
+      - name: Build other branches
+        working-directory: ./repo
         run: |
-          mkdir -p combined
-          cp -r main/docs/.vitepress/dist/* combined/
-          if [ -d "dev/docs/.vitepress/dist" ]; then
-            mkdir -p combined/dev
-            cp -r dev/docs/.vitepress/dist/* combined/dev/
+          set -uo pipefail
+          failed=()
+
+          for ref in $(git for-each-ref --format='%(refname:strip=3)' refs/remotes/origin); do
+            branch="$ref"
+            [ "$branch" = "HEAD" ] && continue
+            [ "$branch" = "main" ] && continue
+
+            slug=$(echo "$branch" | sed 's|[^A-Za-z0-9._-]|-|g')
+
+            if [ -e "../combined/$slug" ]; then
+              echo "::warning::Skipping branch '$branch': /$slug/ already exists in the main site"
+              continue
+            fi
+
+            echo "::group::Building branch '$branch' -> /$slug/"
+            dir="../branches/$slug"
+            git worktree add --detach "$dir" "origin/$branch"
+
+            if (
+              set -e
+              cd "$dir"
+              if [ ! -f docs/.vitepress/config.mts ]; then
+                echo "No docs/.vitepress/config.mts on this branch"
+                exit 1
+              fi
+              sed -i "s|base: '/LifeSeries-docs/'|base: '/LifeSeries-docs/$slug/'|" docs/.vitepress/config.mts
+              npm ci
+              npm run docs:build
+              mkdir -p "$GITHUB_WORKSPACE/combined/$slug"
+              cp -r docs/.vitepress/dist/. "$GITHUB_WORKSPACE/combined/$slug/"
+            ); then
+              echo "Built '$branch'"
+            else
+              echo "::warning::Build failed for branch '$branch', it will not be deployed"
+              failed+=("$branch")
+            fi
+            echo "::endgroup::"
+          done
+
+          if [ ${#failed[@]} -gt 0 ]; then
+            echo "Branches that failed to build: ${failed[*]}"
           fi
 
       - name: Upload artifact
