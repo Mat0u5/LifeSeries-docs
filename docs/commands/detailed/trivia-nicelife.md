@@ -12,6 +12,20 @@ This command is only available in **Nice Life**.
 
 <div class="command-block">
 
+### `/trivia resetUsed`
+
+Resets the stored trivia questions marked as used. Recommended to run before the first session (if any prior testing was done), to prevent any circumstances with duplicate questions.
+
+```
+/trivia resetUsed
+```
+
+**Permissions:** Operator
+
+</div>
+
+<div class="command-block">
+
 ### `/trivia assign`
 
 This command allows you to pre-assign the trivia question for the following night.
@@ -54,9 +68,10 @@ You can add custom trivia questions, read more in [Nice Life Trivia](/config/nic
 
 ::: details Command Permissions Summary
 
-| Command              | Permission Required |
-|----------------------|---------------------|
-| `/trivia assign`     | Operator            |
+| Command             | Permission Required |
+|---------------------|---------------------|
+| `/trivia assign`    | Operator            |
+| `/trivia resetUsed` | Operator            |
 :::
 
 <style scoped>

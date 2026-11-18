@@ -12,6 +12,20 @@ This command is only available in **Wild Life**.
 
 <div class="command-block">
 
+### `/trivia resetUsed`
+
+Resets the stored trivia questions marked as used. Recommended to run before the first session (if any prior testing was done), to prevent any circumstances with duplicate questions.
+
+```
+/trivia resetUsed
+```
+
+**Permissions:** Operator
+
+</div>
+
+<div class="command-block">
+
 ### `/trivia assign`
 
 This command allows you to pre-assign what someone's trivia question will be.
@@ -153,6 +167,7 @@ You can add custom trivia questions, read more in [Wild Life Trivia](/config/wil
 | `/trivia bot`        | Operator            |
 | `/trivia punishment` | Operator            |
 | `/trivia texture`    | Operator            |
+| `/trivia resetUsed` | Operator            |
 :::
 
 <style scoped>
