@@ -16,8 +16,8 @@ The Life Series Mod includes complete recreations of all official seasons, each 
 | [Nice Life](/seasons/nice-life)       | Completed   | Santa bot, Nice/Naughty list            |
 | [Final Life](/seasons/final-life)     | In Progress | TODO                                    |
 |                                       |             |                                         |
-| [Real Life](/seasons/past-life)       | Completed   | April fools - Played in VR              |
-| [Simple Life](/seasons/past-life)     | Completed   | April fools - Superflat world           | 
+| [Real Life](/seasons/real-life)       | Completed   | April fools - Played in VR              |
+| [Simple Life](/seasons/simple-life)   | Completed   | April fools - Superflat world           | 
 
 ## Season Comparisons
 
