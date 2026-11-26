@@ -64,7 +64,9 @@ export default defineConfig({
           { text: 'Secret Life Tasks', link: '/config/secret-life-tasks' },
           { text: 'Wild Life Trivia', link: '/config/wild-life-trivia' },
           { text: 'Wild Life Snail Skins', link: '/config/wild-life-snails' },
-          { text: 'Nice Life Trivia', link: '/config/nice-life-trivia' }
+          { text: 'Nice Life Trivia', link: '/config/nice-life-trivia' },
+          { text: 'Final Life Trivia', link: '/config/final-life-trivia' },
+          { text: 'In-Between', link: '/config/inbetween' }
         ]
       },
       {

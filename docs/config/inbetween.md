@@ -9,7 +9,18 @@ Here, you can modify the image they will see in the windows on each death, as we
 :::tip Files
 I recommend using a high quality image, preferably a 4K one, to prevent being able to see any blurriness in the windows.
 
+Images get zoomed in to fit the windows, so I'd recommend taking the screenshot further away from your subject.
+
 You do not need to add the echo to the sounds, that will be added automatically in-game when they are played.
+:::
+
+
+Supported image formats: PNG, JPG, JPEG
+
+Supported sound formats: OGG
+
+:::warning Sound Files
+Uploaded sounds must be MONO, not STEREO, otherwise they will not have directionality.
 :::
 
 All files are limited to 16 MiB, as they need to be sent to the players over the network.
