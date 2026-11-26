@@ -48,9 +48,8 @@ Global config options are available in all seasons, such as being able to turn o
 Season config options are specific to each season, such as wildcard options for Wild Life, and they are only available in that season.
 
 ## Advanced Configs
-Some configurable features of the mod are more complex, and **require** editing JSON files in the `config/lifeseries/*` folder.
+Some configurable features of the mod are more complex, and accessing files in the `config/lifeseries/*` folder.
 
 That includes:
-- [Secret Life Tasks](/config/secret-life-tasks)
-- [Wild Life Trivia](/config/wild-life-trivia)
-- [Wild Life Snails](/config/wild-life-snails)
+- [Life Skins](/config/lifeskins)
+- [In-Between](/config/inbetween)

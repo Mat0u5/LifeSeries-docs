@@ -22,6 +22,10 @@ Commands that are available in specific seasons.
 - [`/trivia`](/commands/detailed/trivia-nicelife)
 - [`/nicelist`](/commands/detailed/nicelist)
 - [`/naughtylist`](/commands/detailed/naughtylist)
+### Final Life:
+- [`/inbetween`](/commands/detailed/inbetween)
+- [`/ability`](/commands/detailed/ability)
+- [`/boogeyman`](/commands/detailed/boogeyman-finallife)
 
 ::: tip Tip
 Clicking on one of the commands above will bring you to a detailed page about that command.

@@ -44,6 +44,15 @@ Every player is given a random superpower at the start of the session.
 Throughout the session, random other Wildcards get activated and deactivated.
 :::
 
+## Commands
+- [`/wildcard`](/commands/detailed/wildcard)
+- [`/superpower`](/commands/detailed/superpower)
+- [`/snail`](/commands/detailed/snail)
+- [`/hunger`](/commands/detailed/hunger)
+- [`/mobswap`](/commands/detailed/mobswap)
+- [`/zombie`](/commands/detailed/zombie)
+- [`/trivia`](/commands/detailed/trivia-wildlife)
+
 ## Lives
 All players are given 6 lives at the beginning of the first session.
 

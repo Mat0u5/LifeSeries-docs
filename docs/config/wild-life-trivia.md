@@ -11,6 +11,10 @@ In the [Config](/config/overview), you can find the `Trivia` category under `Sea
 
 ![img.png](/config_trivia.png)
 
+:::info Player-Specific trivia
+In the config menu, you can press the arrow on the right to bring down a menu where you can type a player's name. That player will then only be assigned those questions with their name bound to it.
+:::
+
 ### Config Files
 If you prefer a normal text editor interface over the config GUI, trivia questions can also be changed in the following files, but make sure you follow the JSON syntax:
 - `config/lifeseries/wildlife/easy-trivia.json`

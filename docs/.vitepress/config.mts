@@ -87,6 +87,7 @@ export default defineConfig({
           { text: 'Wild Life', link: '/seasons/wild-life' },
           { text: 'Past Life', link: '/seasons/past-life' },
           { text: 'Nice Life', link: '/seasons/nice-life' },
+          { text: 'Final Life', link: '/seasons/final-life' },
           { text: 'Real Life', link: '/seasons/real-life' },
           { text: 'Simple Life', link: '/seasons/simple-life' }
         ]
@@ -122,6 +123,8 @@ export default defineConfig({
           { text: '/vote', link: '/commands/detailed/vote' },
           { text: '/nicelist', link: '/commands/detailed/nicelist' },
           { text: '/naughtylist', link: '/commands/detailed/naughtylist' },
+          { text: '/inbetween', link: '/commands/detailed/inbetween' },
+          { text: '/ability', link: '/commands/detailed/ability' },
 
           { text: 'Developer Commands', link: '/commands/detailed/dev_commands' }
         ]

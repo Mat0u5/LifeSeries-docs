@@ -14,7 +14,7 @@ The Life Series Mod includes complete recreations of all official seasons, each 
 | [Wild Life](/seasons/wild-life)       | Completed   | 8 different Wildcards                   |
 | [Past Life](/seasons/past-life)       | Completed   | Secret society                          |
 | [Nice Life](/seasons/nice-life)       | Completed   | Santa bot, Nice/Naughty list            |
-| [Final Life](/seasons/final-life)     | In Progress | TODO                                    |
+| [Final Life](/seasons/final-life)     | In Progress | New Boogeyman, In-Between, Abilities    |
 |                                       |             |                                         |
 | [Real Life](/seasons/real-life)       | Completed   | April fools - Played in VR              |
 | [Simple Life](/seasons/simple-life)   | Completed   | April fools - Superflat world           | 
@@ -68,12 +68,12 @@ Every session has its own twist, a Wildcard, which affects the gameplay in a cer
 :::
 
 ::: details Nice Life
-Nice Life is still in progress. Things may change.<br>
 Once the clock strikes midnight, it stops moving. Everyone must sleep to pass the night, and can answer a question from the Santa Bot to get rewards. 
 :::
 
 ::: details Final Life
-TODO
+Final Life is still in progress. Things may change. (TODO remove after)<br> 
+Upon death, you are sent to the In-Between realm where you see into your past, and you make a choice to get a permanent ability.
 :::
 
 ## April Fools Seasons

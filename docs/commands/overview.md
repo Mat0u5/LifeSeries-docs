@@ -43,6 +43,10 @@ These commands are only available in specific seasons:
 - [`/trivia`](/commands/detailed/trivia-nicelife)
 - [`/nicelist`](/commands/detailed/nicelist)
 - [`/naughtylist`](/commands/detailed/naughtylist)
+### Final Life:
+- [`/inbetween`](/commands/detailed/inbetween)
+- [`/ability`](/commands/detailed/ability)
+- [`/boogeyman`](/commands/detailed/boogeyman-finallife)
 
 ## Quick Reference
 

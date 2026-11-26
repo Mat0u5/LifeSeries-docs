@@ -54,6 +54,12 @@ To fix this, you can run `/task resetUsed`, which resets all used tasks. This of
 
 To view which tasks are marked as used, if any, you can check the Task Manager in the [Config](/config/overview). Used tasks will have a [USED] marker next to them.
 
+
+## Commands
+- [`/task`](/commands/detailed/task)
+- [`/health`](/commands/detailed/health)
+- [`/gift`](/commands/detailed/gift)
+
 ## Lives
 All players are given 3 lives at the beginning of the first session.
 

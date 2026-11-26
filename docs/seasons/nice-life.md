@@ -2,7 +2,7 @@
 
 ## Overview
 
-Nice Life is the eighth season of the Life Series.
+Nice Life is the third special season of the Life Series.
 
 
 Once the clock strikes midnight, it stops moving.
@@ -33,6 +33,13 @@ At sunset, players on the nice list will vote to give a non-pink name a life.
 The majority of the pinks must vote for the same player for the life to be given.
 
 Pink names are not allowed to be targeted by any other players, including reds.
+
+## Commands
+- [`/vote`](/commands/detailed/vote)
+- [`/nicelife`](/commands/detailed/nicelife)
+- [`/trivia`](/commands/detailed/trivia-nicelife)
+- [`/nicelist`](/commands/detailed/nicelist)
+- [`/naughtylist`](/commands/detailed/naughtylist)
 
 ## Lives
 All players are given 3 lives at the beginning of the first session.
