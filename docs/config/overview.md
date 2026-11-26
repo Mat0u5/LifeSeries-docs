@@ -51,5 +51,6 @@ Season config options are specific to each season, such as wildcard options for 
 Some configurable features of the mod are more complex, and accessing files in the `config/lifeseries/*` folder.
 
 That includes:
-- [Life Skins](/config/lifeskins)
+- [Life Skins](/features/lifeskins)
 - [In-Between](/config/inbetween)
+- [Trivia](/config/wild-life-trivia)

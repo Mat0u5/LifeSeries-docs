@@ -125,6 +125,7 @@ export default defineConfig({
           { text: '/naughtylist', link: '/commands/detailed/naughtylist' },
           { text: '/inbetween', link: '/commands/detailed/inbetween' },
           { text: '/ability', link: '/commands/detailed/ability' },
+          { text: '/boogeyman (finallife)', link: '/commands/detailed/boogeyman-finallife' },
 
           { text: 'Developer Commands', link: '/commands/detailed/dev_commands' }
         ]
