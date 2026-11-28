@@ -47,6 +47,40 @@ Removes a player as the boogeyman.
 
 <div class="command-block">
 
+### `/boogeyman finalLife spawn`
+
+Respawns a player as the boogeyman, if they died already for example.
+
+```
+/boogeyman finalLife spawn <player>
+```
+
+**Arguments:**
+- `<player>` - Target player
+
+**Permissions:** Operator
+
+</div>
+
+<div class="command-block">
+
+### `/boogeyman finalLife despawn`
+
+Despawns a player as the boogeyman (acts as if they died).
+
+```
+/boogeyman finalLife despawn <player>
+```
+
+**Arguments:**
+- `<player>` - Target player
+
+**Permissions:** Operator
+
+</div>
+
+<div class="command-block">
+
 ### `/boogeyman finalLife list`
 
 Shows a list of all current boogeymen.
